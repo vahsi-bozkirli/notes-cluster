@@ -1,0 +1,24 @@
+TF İDF
+TF = Term Frequency
+Bir doküman içerisinde geçen terim ağırlıklarını hesaplamak için kullanılan yöntemdir aşağıda term frequency ağırlık hesaplama yöntemleri bulunmaktadır
+
+Binary doküman içerisinde terimin olup olmadığı
+
+raw frequency terimin dokümanda geçme sayısı/dokümanda kelime sayısı(dokümanın uzunluğu kaliteli sonucu engeller)
+
+log normalization 
+
+Double normalization 0.5 burada 0.5-1 arasında bir değer oluşturuyor raw freq/maksimum geçen terim 
+raw freq bölerek doküman ne kadar uzun olursa olsun terimin diğer terimlere olan oranını bularak frekansı normalize etmektedir
+
+double normalization K
+
+Inverse Document Frequency(IDF)
+birden fazla dokümanda kelimenin geçme sayısını bularak bu kelimenin terim olup olmadığını bağlaç vb olduğu anlamaya çalışır. Bunun için doküman sayısının logaritmasının mutlak değeri alınmaktadır
+
+IDF = log ( Dokuman Sayısı / Terimin Geçtiği Dokuman Sayısı )
+
+Örneğin. Ve, ile kelimesi her dokümanda geçiyor ise |log(10/10)| = 0 verirken mesela yazdığımız dokümanda tf-idf kelimesi 1 dokümanda geçiyor ise |log(1/10)| = 1 değeri elde ederiz 100 dokümanda 1 defa geçiyor ise 2 değerini elde ederiz. Özetle terim ne kadar az dökumanda tekrar ediyor ise IDF değeri o kadar büyük çıkar.
+
+Double Normalization Term Frequency değeri ile IDF değerinin çarpımı bize bu terimin doküman içerisindeki değerini vermiş olur. Dokümanın ağırlıklı olarak hangi konuyla ilgili olduğunu, arama işlemlerinde aradığımız terimin dokümanda ne kadar ağırlıklı olarak geçtiğini anlayabiliriz.
+Thu Mar 31 2022 20:58:45 GMT+0300 (GMT+03:00)

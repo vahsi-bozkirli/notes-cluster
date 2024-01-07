@@ -1,0 +1,11 @@
+gradient descent ile least squares fonksiyonun bir ilişkisi mi var
+￼
+Evet, Gradient Descent algoritması ile Least Squares (En Küçük Kareler) optimizasyon fonksiyonu arasında bir ilişki vardır.
+
+Least Squares (En Küçük Kareler) optimizasyon fonksiyonu, veri setindeki noktalar ile tahmin edilen doğru arasındaki farkın karelerinin toplamını minimuma indirmeyi hedefler. Bu fonksiyon doğrusal regresyon modeli için kullanılabilir.
+
+Gradient Descent algoritması ise, bir optimizasyon fonksiyonunun minimum değerini bulmak için kullanılan bir yöntemdir. Bu algoritma, optimizasyon fonksiyonunun açık bir formülü olmasa bile, veri setindeki noktalar ile en iyi şekilde uyumlu değerlere getirmek için kullanılabilir.
+
+Least Squares (En Küçük Kareler) optimizasyon fonksiyonunun analitik çözümünün yerine, Gradient Descent algoritması kullanılarak m ve b değerleri optimize edilebilir. Bu algoritma, optimizasyon fonksiyonunun gradientini hesaplar ve modelin parametrelerini bu yönde iteratif olarak günceller. Bu sayede en küçük değere getirilir.
+Fri Jan 20 2023 00:24:59 GMT+0300 (GMT+03:00)
+https://chat.openai.com/chat?__cf_chl_tk=hbwnV38x8Bi8EPI45auCsZclx4A.aEZoMe_tIbEhY4o-1674159425-0-gaNycGzNE1E

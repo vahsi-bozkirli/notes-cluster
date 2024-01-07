@@ -1,0 +1,2 @@
+Yarowsky algoritması, doğal dil işlemede kendi kendini denetleyen öğrenmenin bir örneğidir. Az sayıda etiketli örnekten, metinde belirli bir noktada hangi çok eşli kelimenin anlamının kullanıldığını tahmin etmeyi öğrenir.
+Mon Jan 23 2023 19:31:44 GMT+0300 (GMT+03:00)

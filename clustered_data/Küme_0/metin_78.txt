@@ -1,0 +1,32 @@
+Üreteç ve Ayırt Edici (Generative Adversarial Network - GAN), birbirleriyle rekabet eden iki yapay sinir ağı ailesinden oluşan bir yapay zeka modelidir. GAN'ların farklı çeşitleri ve varyasyonları geliştirilmiştir. İşte bazı GAN çeşitleri:
+
+
+Deep Convolutional GAN (DCGAN): Bu çeşit, derin evrişimli sinir ağlarının (CNN) GAN yapısına uygulandığı bir versiyondur. Görüntü üretimi ve sentezi için popülerdir.
+
+
+Conditional GAN (cGAN): GAN'ın bu türü, üretim işlemini belirli bir koşula (etiket, sınıf vb.) bağlayarak daha spesifik sonuçlar elde etmeyi sağlar.
+
+
+CycleGAN: İki farklı veri kümesi arasında dönüşüm yapma yeteneği sağlayan bir GAN türüdür. Örneğin, atlar ile zebralar arasında dönüşüm yapabilir.
+
+
+Wasserstein GAN (WGAN): GAN'ın eğitim sürecini daha istikrarlı hale getirmek ve sonuçların kalitesini artırmak için geliştirilmiş bir varyasyondur.
+
+
+Progressive GAN: Bu çeşit, çözünürlüğü giderek artan aşamalarda üretim yaparak yüksek kaliteli görüntüler elde etmeyi amaçlar.
+
+
+StarGAN: Birden fazla hedef veri kümesi arasında dönüşüm yapabilen bir GAN türüdür. Örneğin, farklı insanların yüz ifadelerini dönüştürebilir.
+
+
+StyleGAN: Görüntülerin stil ve içeriğini ayrı ayrı kontrol etmeyi sağlayarak daha gerçekçi sonuçlar elde etmeyi hedefler.
+
+
+BigGAN: Yüksek çözünürlüklü ve kaliteli görüntüler üretmeyi amaçlayan büyük ölçekli bir GAN türüdür.
+
+
+Adversarial Autoencoders (AAE): GAN'ın autoencoder yapısıyla birleştirilmesi sonucu elde edilir. Bu tür, veri boyutunu azaltırken aynı zamanda üretici modelin öğrenmesine yardımcı olabilir.
+
+
+Bu, sadece GAN'ların bazı çeşitlerinin örnekleri. GAN'lar, yapay zeka alanında oldukça yaygın ve çeşitli uygulamalarda kullanılan güçlü modellemelerdir.
+Sat Aug 19 2023 19:25:17 GMT+0300 (GMT+03:00)

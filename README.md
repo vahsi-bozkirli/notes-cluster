@@ -1,2 +1,1 @@
-# notes-cluster
-the purpose of this project is to cluster personal notes collected from the vivaldi browser and create folders for each cluster
+I applied the K-means algorithm to my notes in the Vivaldi browser and clustered all the notes using an IPython (Jupyter) Notebook.

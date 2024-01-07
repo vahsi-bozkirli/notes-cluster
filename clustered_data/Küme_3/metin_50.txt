@@ -1,0 +1,9 @@
+Least Squares (En Küçük Kareler) optimizasyon fonksiyonu, veri setindeki noktalar ile tahmin edilen doğru arasındaki farkın karelerinin toplamını minimuma indirmeyi hedefler. Bu fonksiyon, doğrusal regresyon modeli için kullanılabilir ve veri setindeki noktaları en iyi şekilde temsil eden bir doğruyu bulmaya çalışır.
+Formülün parametreleri şunlardır:
+x_i: veri setindeki noktaların x değerleri
+y_i: veri setindeki noktaların y değerleri
+m: eğim, doğrunun eğimi olarak tanımlanır.
+b: kesim noktası, doğrunun x ekseni üzerindeki kesişim noktası olarak tanımlanır.
+Bu parametreler, modelin eğitim sırasında optimize edilir. Optimizasyon algoritması, veri setindeki noktalar ile tahmin edilen doğru arasındaki kayıp fonksiyonunu azaltmaya çalışır. Modelin parametreleri optimize edildiğinde, model veri setine en uygun doğruyu tahmin edebilir.
+Fri Jan 20 2023 00:02:28 GMT+0300 (GMT+03:00)
+https://chat.openai.com/chat?__cf_chl_tk=hbwnV38x8Bi8EPI45auCsZclx4A.aEZoMe_tIbEhY4o-1674159425-0-gaNycGzNE1E

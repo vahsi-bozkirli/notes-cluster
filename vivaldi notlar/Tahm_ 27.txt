@@ -1,0 +1,35 @@
+Tahmin Gücü Puanı 
+* PPS (Predictive Power Score) aracılığıyla, bir değişkenin belirli bir veri kümesindeki başka bir değişkenin değerlerini tahmin etmede ne kadar yararlı olacağını anlayabiliriz ve verileri normalleştirdiği için çok daha güvenilirdir.
+* Genel olarak, 1'e yakın bir PPS puanı (örn. 0.8) iyi olarak kabul edilir ve bu bize belirli bir A sütununun B sütununun değerlerini tahmin etme olasılığının yüksek olduğunu söyler
+
+**PPS vs Korelasyon**
+### Korelasyon
+* korelasyon 1 ve -1 arası değerler üretir ve doğrusal ilişkinin olmadığı ilişkileri tespit edemez ayrıca sadece sayısal değerleri işleyebilir
+* Başka bir dezavantaj, korelasyon matrisinin simetrik olmasıdır, bu da A sütununun B ile B arasındaki korelasyonun aynı olduğuna dair yanıltıcı bir yorum verebilir. Ancak gerçek dünyada her zaman böyle değildir.
+### PPS
+* PPS, korelasyondan elde edilemeyen farklı sütunlar arasındaki doğrusal olmayan ilişkileri çok iyi bulabilir.
+* Korelasyon matrisi sadece sayısal değişkenlerle çalışır, ancak PPS sayısal değerlere ek olarak kategorik ve nominal verileri de işleyebilir.
+* Korelasyon matrisinin aksine, PPS asimetriktir. Bu, A sütununun B sütunu değerlerini tahmin edebilmesi durumunda, B sütununun A sütunu değerlerini de tahmin edebileceği anlamına gelmez ve PPS bu yorumu gösterecektir.
+
+**PPS dezavantajları**
+* korelasyona göre yeni olduğundan sonuçlardan çıkarım yapmak zor olabilir
+* PPS, farklı ilişki türlerini tek bir puan üzerinde yansıtabilir, bu karmaşık kalıplara yol açabilir.
+* Korelasyon matrisinin aksine, prediktif güç skorunun farklı yöntemleri olabilir, yani. çıktıyı üretmek için farklı algoritmalar ve değerlendirme metrikleri, böylece sonuçları çeşitli faktörlere oldukça bağımlı hale getirir. Bu istenmeyen sonuçlar doğurabilir.
+* çalışması korelasyona göre daha uzun sürer
+
+**PPS in hesaplanması**
+varsayılan olarak PPS karar ağaçları algoritmasını kullanır
+karar ağaçlarının seçilmesinin sebepleri
+* doğrusal olmayan ilişkilerdeki ikili ilişkileri bulabilir
+* çok az ön işleme gerektirir
+* aykırı değerlere dayanıklıdır
+
+sayısal değerler için decision tree regressor, kategorik değerler için decision tree classifier kullanılacak
+(gerekli görselleri ekledim)
+
+**pythonda pps hesabı**
+pip install ppscore
+
+
+Thu Dec 29 2022 11:46:33 GMT+0300 (GMT+03:00)
+https://machinelearningknowledge.ai/predictive-power-score-vs-correlation-with-python-implementation/

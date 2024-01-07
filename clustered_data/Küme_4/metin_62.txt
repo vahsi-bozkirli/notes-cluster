@@ -1,0 +1,4 @@
+Otomatik ilişkilendirilebilir bellekler, bu veri parçasından yalnızca kısmi bilgilerin [açıklama gerekli] sunulması üzerine bir veri parçası alabilir. Hopfield ağlarının [1] [2] otomatik olarak ilişkilendirilebilir bellek görevi gördüğü gösterilmiştir, çünkü bu verilerin bir kısmını gözlemleyerek verileri hatırlayabilirler.
+Yinelemeli Oto-ilişkisel Ağ [değiştir]
+Bazı durumlarda, otomatik ilişkilendirilebilir bir ağ, ilk kez depolanmış bir deseni yeniden üretmez, ancak ilk gösterimin sonucu ağa tekrar girilirse, depolanan desen çoğaltılır.[3] 3 çeşittir - Tekrarlayan doğrusal otomatik associator, [4] Kutu-içi Beyin-Devlet ağı, [5] ve Ayrık Hopfield ağı. Hopfield Ağı, otomatik olarak birleştirilebilir bir belleğin en iyi bilinen örneğidir.
+Mon Jan 23 2023 19:14:26 GMT+0300 (GMT+03:00)

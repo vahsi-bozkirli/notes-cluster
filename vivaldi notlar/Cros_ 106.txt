@@ -1,0 +1,9 @@
+Cross-entropy loss (çapraz-entropi kaybı) fonksiyonunda, L ve N parametreleri şöyle hesaplanır:
+
+L: Çapraz-entropi kaybı, optimizasyon fonksiyonunun değeridir. Bu değer, veri setindeki her nokta için gerçek sınıf değeri ile tahmin edilen sınıf değeri arasındaki farkın toplamını temsil eder. Bu değer, modelin eğitim sırasında optimize edilir ve en küçük değere getirilir.
+
+N : Veri setindeki nokta sayısıdır, her nokta için çapraz entropi kaybının ölçülmesi için kullanılır.
+
+Formülün içinde i = 1 den N ye kadar döngü yapılır ve her döngüde gerçek sınıf değerleri ile tahmin edilen sınıf değerleri arasındaki farkın kareleri toplanır. Bu toplanan değer sonrasında N'e bölünür ve loss değeri elde edilir. Bu değer, eğitim sırasında modelin parametreleri optimize edilir ve en küçük değere getirilir.
+Fri Jan 20 2023 00:15:08 GMT+0300 (GMT+03:00)
+https://chat.openai.com/chat?__cf_chl_tk=hbwnV38x8Bi8EPI45auCsZclx4A.aEZoMe_tIbEhY4o-1674159425-0-gaNycGzNE1E

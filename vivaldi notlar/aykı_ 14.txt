@@ -1,0 +1,40 @@
+aykırı değer işleme
+aykırı gözlem türleri
+* **nokta aykırı değer**: bir gözlemin dikkat çekecek şekilde diğer durumlardan ayrıldığı değer durumu
+* **bağlamsal aykırı değer**:  öznitelik bakımından incelendiğinde bir sorun olmayıp başka durumlarla birlikte aykırılaşan değer durumu
+* **toplu aykırı değer**: Veri setinde belirli bir grup içinde normal davranış gösteren ancak tüm veri seti incelendiğinde aykırı olarak belirlenen değişkenler. (Kapanan tüm hastanelerin Çankaya ilçesinde yer alması.)
+
+## Nasıl tespit edilir
+* grafikler ile birlikte
+ * histogram
+ * boxplot
+
+* istatistiksel
+  * çeyrekler açıklığı
+  * **z skoru**:Z- Skoru yöntemini kullanmak için değişkenlerin normal dağılımdan geldiğinden emin olmamız gerekir. Bu yöntemde değişkenin ölçeği değiştirilerek ortalamanın +-3 std.sapma dışında kalan gözlemler belirlenerek aykırı gözlem olarak kabul edilir. **Z = (x – μ) / σ**
+  * **standart sapma** :Gözlemlerin ortalamanın kaç standart sapma uzağında olduğu kontrol edilir. 3 standart sapma uzakta kalan alt ve üst gözlemler aykırı değer olarak tanımlanır.
+  * **ortanca mutlak sapma**:Bu yöntem standart sapma yöntemine benzer bir yöntemdir. Tek fark burada değişkenlerin ortalamadan uzaklığına değil medyandan uzaklığına bakılmasıdır.
+
+**Çok değişkenli aykırı değer tespiti**
+  * grafiksel(scatterplot)
+  * **DBSCAN**: K-Means’e alternatif bir kümeleme tekniğidir ve öncesinde küme sayısı belirtilmesine ihtiyaç yoktur. Bu yöntemde öznitelikler bakımından benzer olan gözlemler bir araya getirilerek kümeleme yöntemiyle analiz edilir. Kümeleme sonucunda -1 ve 0 değerleri döner. -1 değeri kümelenemeyen gözlemleri temsil ederken 0 değeri ise kümelenmiş değişkenleri ifade eder
+  * **LOFT**: LOFT yönteminde gözlemler bulundukları konumda yoğunluk tabanlı skorlanır ve aykırı olabilecek gözlemler tanımlanır. Buradaki noktaların local yoğunluğu komşularıyla karşılaştırılır. Eğer gözlem birimi komşularından anlamlı düzeyde farklılaşmışsa aykırı gözlem olarak belirlenir.
+  * İzolasyon ormanı: Bu yöntemde amaç karar ağaçlarında olduğu gibi değişkenin köküne inerek aykırı gözlemleri kaçırmadan tespit edebilmektir. İzolasyon ormanı ile aykırı değer tespitinde belirli kriterlere dayanarak gözlemler için bir anormallik puanı hesaplanır. Puan -1 ve 1 değerlerini alır. -1 değerini alan gözlemler aykırı gözlem olarak belirlenir.
+
+**Makine Öğrenmesine dayalı aykırı değer tespiti**
+  * **Elliptic Envelope**: gözlemler etrafında eliptik bir çizgi oluşturularak iç gözlemler ve uç gözlemler birbirinden ayrılır. Çizgi içinde kalan gözlemler iç gözlem, dışarıda kalanlar ise aykırı gözlemlerdir. Burada contamination parametresine dikkat etmek gerekir. Bu parametre veri setindeki aykırı gözlem oranını temsil eder. Eğer herhangi bir değer girilmezse analizde 0.1 değeri kullanılır. Normalde 0-0.5 arasında değer alabilir, eğer aykırı gözlem oranınız fazlaysa contamination değerini yüksek almalısınız. **not** Veri setindeki aykırı gözlem oranını bilmiyorsanız bu yöntemin kullanılması pek önerilmez.
+  
+**Aykırı gözlemlere ne yapılabilir**
+* silinebilir
+* doldurulabilir
+* baskılanabilir
+* göz ardı edilebilir
+
+aykırı değerlere dayanıklı algoritmalar
+* Karar Ağaçları
+* Random Forest
+* XGBoost
+* Naive Bayes
+
+[Kaynakça](https://kardelennerdem.com/2022/02/08/veri-on-isleme-adim-2-aykiri-gozlem-analizi/)
+Sat Sep 02 2023 18:57:49 GMT+0300 (GMT+03:00)

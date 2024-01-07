@@ -1,0 +1,17 @@
+Doğrusal Regresyon: 17-19.yy arası
+Lojistik Regresyon: 20.yy başları
+SVM (Support Vector Machine): 20.yy ortaları
+Naive Bayes: 20.yy ortaları
+KNN (K-Nearest Neighbors): 20.yy ortaları
+CART (Classification and Regression Trees): 80'ler
+Random Forest: 90'lar
+Gradient Boosting Machines (GBM): 2000'ler
+XGBoost: 2010'lar
+LightGBM: 2010'lar
+Neural Networks (NN): 1950'ler
+CNN (Convolutional Neural Networks): 80'ler
+RNN (Recurrent Neural Networks): 90'lar
+LSTM (Long Short-Term Memory): 90'lar
+Autoencoder: 2010'lar
+Fri Jan 20 2023 06:54:41 GMT+0300 (GMT+03:00)
+https://chat.openai.com/chat

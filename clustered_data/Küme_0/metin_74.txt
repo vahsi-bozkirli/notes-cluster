@@ -1,0 +1,28 @@
+Yapay zekanın babası Frank Rosenblatt(1928-1971)
+İNCELE!
+perceptron 1957 de Cornell Havacılık Laboratuvarında Frank Rosenblatt tarafından bulunmuştur, ilk uygulama IBM 704 te test edildi
+perceptronun matematiksel ifadesi görselde belirtilmiştir kaynakça
+perceptron formülüyle w ve b değerleri hesaplanacak olup doğru bir sınıflandırma yapılabilmesi için öncelikle eşik değer gereklidir eşik değer problemden probleme değişebilir
+eşik değer sayesinde aktivasyon fonksiyonu eğrisi aşağı veya yukarı kaydırılmaktadır
+perceptron genellikle verilerin iki bölüme ayrılmasına olanak sağlar bu nedenle doğrusal ikili sınıflandırıcı olarak da adlandırılır
+Öğrenme algoritması
+perceptron öğrenme algoritmasının amacı pozitif ve negatif girdileri doğru sınıflandırabilen bir karar sınırı -çizgisi- oluşturmaktır, doğru sınır değerine ulaşılması için girdi ve çıktı verilerinin fazla olması gerekmektedir
+
+Ağırlık ve eşik değerleri başlatılmalıdır
+her bir veri için giriş üzerinden aşağıdaki adımları gerçekleştirmelidir
+gerçek çıktı değerinin hesaplanması için (görseli ekledim)
+ağırlık değerini güncellemesi için 
+(görseli ekledim)
+ikinci madde yineleme hatası alınana kadar işlem tekrarlanmalıdır
+
+x tanıtmak istenilen resmin matrisi, y tanıtılan resmin gerçekle olan benzerlik değeri, w ise elde edilen çıktı değerinin yükseltilmesi için kullanılmaktadır
+model lineer olarak ayrılabiliyorsa perceptronun en iyi sonucu vermesi beklenir ancak model lineer değilse perceptron kötü sonuç verecektir
+Sınırlamalar
+
+perceptron doğrusal olmayan ayrılabilir veri noktalarını sınıflandıramaz
+çok katmanlı parametreleri içeren karmaşık problemler perceptronla çözülemez
+perceptron lineer olmayan ayrılabilir veri noktalarını sınıflandıramaz
+
+NOT: Yukarda karşılaşılan problemler için multilayer perceptron kullanılmaktadır
+Wed Dec 28 2022 13:26:15 GMT+0300 (GMT+03:00)
+https://tr.wikipedia.org/wiki/Perceptron

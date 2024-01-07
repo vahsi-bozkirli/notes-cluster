@@ -1,0 +1,5 @@
+Optimizasyon fonksiyonları, makine öğrenmesi modellerinin eğitim sürecinde, modelin ağırlıklarını (ve diğer parametreleri) belirli bir hedef fonksiyon (örneğin kayıp fonksiyonu) en aza indirmek için kullanılır. Bu hedef fonksiyon, modelin doğruluğunu ölçen bir metriktir ve optimizasyon fonksiyonu, bu metriği en aza indirmek için modelin ağırlıklarını iteratif olarak günceller.
+
+Optimizasyon fonksiyonları, genellikle gradient descent veya diğer benzeri optimizasyon algoritmaları kullanarak çalışırlar. Bu algoritmalar, modelin kayıp fonksiyonunu azaltmak için ağırlıkların gradientini (yani eğimini) hesaplarlar ve bu gradient yönünde ağırlıkları hafifçe günceller. Bu işlem iteratif olarak tekrar edilir ve modelin ağırlıkları, kayıp fonksiyonunu en aza indirmek için optimize edilir. Bu işlem sürekli olarak tekrar edilir ve model eğitim süreci tamamlandığında doğruluğu en yüksek değerlere ulaşır.
+Thu Jan 19 2023 23:33:10 GMT+0300 (GMT+03:00)
+https://chat.openai.com/chat

@@ -1,0 +1,7 @@
+Destek Vektör Makinesi (SVM) genellikle sınıflandırma problemlerinde kullanılır, ancak regresyon problemlerinde de kullanılabilir. Regresyon için SVM, özellikle "Support Vector Regression (SVR)" olarak adlandırılır. SVR, verilen eğitim verilerini en iyi şekilde uyan bir hiperdüzlemi bulmak için kullanılan optimizasyon fonksiyonlarından bazılarını kullanır.
+
+SVR için kullanılan en yaygın optimizasyon fonksiyonu, "Epsilon-Insensitive Loss" (ya da "Tube Loss") fonksiyonudur. Bu fonksiyon, regresyon modelinin tahminlerinin gerçek değerlerden ne kadar uzak olmasına izin verileceğini belirlemek için kullanılır. Örneğin, verilen epsilon değeri 0.1 olsun, gerçek değerin 0.08 ile 0.12 arasında olması kabul edilirken, modelin tahmini değer 0.1 olduğunda hata değer 0 olur.
+
+Diğer optimizasyon fonksiyonları arasında "L1 Loss" ve "L2 Loss" (ya da "Least Absolute Deviation" ve "Least Squares" olarak da bilinir) bulunur. Bu fonksiyonlar, gerçek değerler ile tahmini değerler arasındaki farkın karelerini veya mutlak değerlerini minimize etmek için kullanılır.
+Fri Jan 20 2023 07:00:41 GMT+0300 (GMT+03:00)
+https://chat.openai.com/chat

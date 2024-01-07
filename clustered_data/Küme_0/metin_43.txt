@@ -1,0 +1,2 @@
+Hetero-sulaşıcı anılar, başka bir kategoriden veri sunumu üzerine bir kategoriden ilişkili bir veri parçasını hatırlayabilir. Örneğin: İlişkisel hatırlamanın “muz” paterninden farklı “maymun” paternine bir dönüşüm olması mümkündür.”[6]
+Mon Jan 23 2023 19:28:23 GMT+0300 (GMT+03:00)

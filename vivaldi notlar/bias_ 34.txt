@@ -1,0 +1,4 @@
+bias dediğimiz şey train seti üzerinde yapılan tahminin doğruluğu, variance dediğimiz şey ise , test seti için yapılan tahminin doğruluğu.
+
+Thu Feb 24 2022 16:42:28 GMT+0300 (GMT+03:00)
+https://eksisozluk.com/bias--107547?p=4

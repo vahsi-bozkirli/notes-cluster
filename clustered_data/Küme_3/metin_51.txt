@@ -1,0 +1,6 @@
+Lojistik Regresyon, bir sınıflandırma problemi çözmek için kullanılan bir yöntemdir. Bu yöntem, veri setindeki noktaların hangi sınıfa ait olduğunu belirlemek için bir doğrusal fonksiyon kullanır. Lojistik regresyon modelinin parametreleri:
+w_1, w_2, ..., w_n : ağırlıklar, veri noktasının özelliklerine göre modelin çıktısını etkileyebilir.
+b : bias, modelin çıktısını etkileyebilir.
+Bu parametreler, modelin eğitim sırasında optimize edilir ve veri setindeki noktaları en iyi şekilde sınıflandıran değerlere getirilir. Lojistik Regresyon modeli için kullanılan optimizasyon fonksiyonları arasında en yaygın olarak kullanılanı cross-entropy loss (çapraz-entropi kaybı) fonksiyonudur. Bu fonksiyon, veri setindeki noktaların gerçek sınıfı ile tahmin edilen sınıf arasındaki farkı ölçer ve bu farkı minimuma indirmeye çalışır. Ayrıca, gradient descent optimizasyon algoritması kullanılır ve modelin parametreleri optimize edilir.
+Fri Jan 20 2023 00:07:12 GMT+0300 (GMT+03:00)
+https://chat.openai.com/chat?__cf_chl_tk=hbwnV38x8Bi8EPI45auCsZclx4A.aEZoMe_tIbEhY4o-1674159425-0-gaNycGzNE1E

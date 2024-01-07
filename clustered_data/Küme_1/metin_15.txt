@@ -1,0 +1,15 @@
+btkakademi boş değer doldurma
+boy_kilo_liste = ["Height","Weight"]
+unique_event=pd.unique(veri.Event)
+for e in unique_event:
+    event_fil = veri.Event == e
+    data_fil = veri[event_fil]
+for s in boy_kilo_liste:
+    agemean = np.round(np.mean(data_fil[s]),2)
+    if ~np.isnan(agemean):
+        data_fil[s]=data_fil[s].fillna(agemean)
+    else:
+        data_fil[s]=data_fil[s].fillna(np.round(np.mean(veri[s]),2))
+veri[event_fil]=data_fil
+
+Sat Sep 02 2023 18:56:58 GMT+0300 (GMT+03:00)

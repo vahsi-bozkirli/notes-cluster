@@ -1,0 +1,20 @@
+F-16 modelleri nasıl birbirinden ayırt edilebilir?
+Yazıda amacımız Türk Hava Kuvvetleri envanterinde ki F-16’ları birbirinden ayırt etmek üzerine
+
+F-16 Block 50+
+olarak nitelendirilen F-16 modellerinin envanterde ki diğer F-16 uçaklarına göre oldukça bariz bir farkı bulunmaktadır. Bu fark aşağıda ki resimde de görebileceğiniz CFT olarak isimlendirilen gövde üzeri yakıt tanklarıdır. Bu tanklar 450 galon ekstra yakıt sağlamakta olup F-16’nın menzilini iyi bir seviyede uzatmaktadır.
+
+F-16D Block 50+
+larda ise ayrım yapılabilecek bir diğer bariz nokta omurgadır.artan aviyonik sistemlerinin kablo vs. nesneleri depolamaktadır
+Bu uçakların kuyruk numaraları 07-1001 ile başlar ve 07-1030
+
+F-16 Block 50
+93-xxxx ve 94-xxxx kuyruk numarasına sahip Block 50 F-16’ların kuyruk numarası haricinde bir diğer ayrım yapılacak noktası rudder yani dikey kuyruk altında bulunan paraşüt bölmesidir.
+
+F-16 Block 40
+Genel anlamda 89-xxxx, 90-xxxx, 91-xxxx ve 92-xxxx şeklinde kuyruk numarasına sahip F-16’ları Block 40 olarak addedebiliriz. Bunun yanında birde spesifik olarak kuyruk numarası 88-0033’den başlayarak 88-0037’ye kadar olan ve 93-0001’den başlayarak 93-0014’e kadar olan F-16’lar Block 40 konfigürasyonundadır.
+
+F-16 Block 30
+86-xxxx ve 87-xxxx kuyruk numaralarına sahip F-16 uçaklarımız Block 30 konfigürasyonundadır. Bununla beraber 88-0032’ye kadar ve öncesinde bulunan 88-xxxx kuyruk numarasına sahip olan F-16 uçaklarımızda yine Block 30 konfigürasyonundadır.
+Sun Jul 04 2021 21:08:02 GMT+0300 (GMT+03:00)
+https://www.savunmasanayist.com/f-16-modelleri-nasil-birbirinden-ayirt-edilebilir/

@@ -1,0 +1,27 @@
+tüm modeller
+doğrusal regresyon
+çoklu doğrusal regersyon
+Temel Bileşen Regresyonu(PCR)
+Kısmi en küçük kareler regresyonu(PLS)
+Ridge regresyon
+Lasso regresyon
+ElasticNet regresyon
+
+KNN
+SVM.SVR, SVC
+Yapay Sinir Ağları
+CART 
+Bagged Trees
+Random Forests
+Gradient Boosting Machine
+XGBoost
+CatBoost
+
+Lojistik regresyon
+Naive Bayes
+
+GÖZETİMSİZ ÖĞRENME
+K-Means
+
+Thu Feb 03 2022 21:37:52 GMT+0300 (GMT+03:00)
+https://www.whatfontis.com/

@@ -1,0 +1,28 @@
+dönüşümler
+* **StandartScaler**: Standardizasyon işleminde her bir gözlem birimi ortalamadan çıkarılır ve standart sapmaya bölünür böylelikle değişkenler ortalaması 0 varyansı 1 olan normal dağılım elde edilir, ancak bu yöntem verinin normal dağıldığı varsayımına dayanır işleme geçmeden önce verinin dağılımını kontrol etmelisiniz
+bu dönüşümden sonra veriler -1 ve 1 arası değer alırlar
+* **normalizasyon**: normalizasyon işleminde verinin varyansı ortalamasını ve dağılımını değiştirmez bu işlemden sonra veriler 0 ve 1 arası değer alırlar
+```
+from sklearn import preprocessing
+preprocessing.normalize([sütun1,sütun2])
+```
+* **Min Max Scaler**: veri setinde minimum ve maksimum değerleri bulur daha sonra her bir gözlem birimini minimum değerden çıkarır ve maksimum minimum değerine böler burada diğer yöntemlerin aksine feature_range(min,max) parametresini kullanarak değişkenlerin ölçekleneceği aralığı kendimiz belirleyebilmemiz, bu parametreyi boş bırakırsak default olarak değişkenleri 0 ve 1 aralığında ölçeklendirir
+* **MaxAbs Scaler**: maxabs ölçekleme yönteminde öncelikle sütundaki her bir değişkenin mutlak değeri bulunur daha sonra mutlak değerce maksimum değer tespit edilir ve tüm gözlem birimleri tespit edilen mutlak maksimum değere bölünür veriler -1 ve 1 aralığında ölçeklenir
+* **Robust Scaler**: diğer yöntemler min ve maks değerleri kullandığından aykırı değerlere duyarlıydı ancak Robust scaler ölçeklendirmede IQR (çeyrekler açıklığı) kullandığı için aykırı değerlere dayanıklıdır
+* **Quantile Transformer Scaler**: quantile transformer scaler önce değişkeni normal dağılıma dönüştürür daha sonra ölçeklendirir ***bu yöntemde dikkat edilmesi gereken notka dağılımın değiştiğidir***
+**NOT**: quantile transformer scalerda çıktı dağılımını normal veya uniform olarak belirleyebiliriz varsayılan değer uniformdur
+* **Power Transformer Scaler**: normalliğin istendiği durumlarda kullanılır
+değişken varyans durumunda varyansı stabilize etmek ve verideki çarpıklığı azaltmak için maksimum olabilirlik yöntemi kullanılır
+BOX-COX ve YEO-JOHNSON dönüşümünü destekler
+
+## Kategorik dönüşümler
+* One Hot Encoder
+* Ordinal Encoder(kategoriler arasında sıralama varsa)
+* Binarize Dönüşüm önce labelencoder ile sayısallaştırır sonra binarize dönüşüm yaparız
+```
+pip install category-encoders
+from category_encoders import BinaryEncoder
+bin = BinaryEncoder(cols=['engType','drive','body'],return_df=True)
+```
+
+Wed Dec 28 2022 00:24:58 GMT+0300 (GMT+03:00)

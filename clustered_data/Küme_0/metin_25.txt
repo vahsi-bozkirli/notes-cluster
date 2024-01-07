@@ -1,0 +1,9 @@
+Destek Vektör Makinesi (SVM) genellikle kullanılan optimizasyon fonksiyonlarından birisi olan Hinge Loss (ya da "maximum-margin" loss) fonksiyonunu kullanır. Bu fonksiyon, verilen eğitim verilerini en iyi şekilde sınırlandıran bir hiperdüzlemi bulmak için kullanılır. Ayrıca, SVM'ler için alternatif optimizasyon fonksiyonları da mevcuttur, örneğin Log Loss ve Squared Hinge Loss.
+￼
+￼
+￼
+￼
+devam ety
+SVM'ler için kullanılan diğer bir optimizasyon fonksiyonu olan Log Loss, sınıflandırma problemlerinde kullanılır ve sınıflandırma doğruluğunu arttırmak için kullanılır. Bu fonksiyon, verilen eğitim verilerini en iyi şekilde sınıflandıran bir hiperdüzlemi bulmak için kullanılır. Squared Hinge Loss ise Hinge Loss'un karesi olarak düşünülebilir ve sınıflandırma problemlerinde kullanılabilir. Bu fonksiyon, verilen eğitim verilerini en iyi şekilde sınıflandıran bir hiperdüzlemi bulmak için kullanılır.
+Fri Jan 20 2023 06:58:33 GMT+0300 (GMT+03:00)
+https://chat.openai.com/chat

@@ -1,0 +1,15 @@
+normalizasyon: 
+ölçeklendirme için değişkenlerin min ve max değerleri kullanılır
+değişkenler farklı ölçeklerdeyse kullanılır
+0-1 veya -1 - 1 arasında ölçeklendirir
+aykırı değerler tarafından etkilenir
+sklearnde MinMax diye bilinir
+standardizasyon
+ortalama ve standart sapmaya göre hesaplanır
+sıfır ortalama ve birim std istediğimizde kullanılır
+Belirli bir aralıkla sınırlı değildir.
+aykırı değerlerden daha az etkilenir
+sklearnde StandartScaler olarak bilinir
+özellik dağılımı Normal veya Gauss olduğunda kullanışlıdır
+z score normalizasyonu olarak bilinir
+Sat Sep 02 2023 18:57:49 GMT+0300 (GMT+03:00)

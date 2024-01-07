@@ -1,0 +1,35 @@
+Karar ağaçları
+neden kullanılır?
+
+değişken seçimi yapabilir
+doğrusal olmayan ilişkilerde veya parametrelerde kullanılabilir
+koşullu olasılık temelli çıkarımlarda veya bayes teoreminde kullanılabilir
+bulanık koşullarda stratejik karar verme için kullanılabilir
+alterrnatifler arasında seçim yaparken karar ağaçları tercih edilir, riski veya belirsizliği basitçe ölçmek istediğimizde tercih edilen araç monte carlo simulasyonudur.
+
+Temel kavramlar
+
+kök düğüm: tüm popülasyonu temsil eder
+bölme: düğümlerin dallandığı bölümdür.
+yaprak/terminal düğüm: düğümün son aşaması(çıktı etiketi)
+üst ve alt düğüm: bir düğümün diğer bir düğüme karşın altında yada üstünde olduğunu belirten göstergedir
+Entropi: Entropi işlenmekte olan bilgideki rastgeleliğin bir ölçüsüdür. Entropi ne kadar yüksekse değişkene ait bilgiden herhangi bir sonuç çıkarmak o kadar zordur.
+Bilgi kazanımı: bir değişkene ait çıktı değişken üzerindeki açıklayıcılık etkisi düğüm bölünmesinde karar vermek için kullanılır
+Gini index: Gini endeksi veri kümesindeki bölünmeleri değerlendiren maliyet fonksiyonudur, her bir sınıfın olasılıklarının karelerinin toplamının birden çıkarılmasıyla hesaplanır, daha büyük bölümleri tercih eder oysa bilgi kazanımı farklı değerlere sahip daha küçük bölümleri destekler daha düşük gini indeksi olan bir niteliğin tercih edilmesi gerektiği anlamına gelir
+varyansın azaltılması(reduction in variance): varyansın azaltılması, sürekli hedef değişkenler için kullanılan bir algoritmadır bu algoritma  en iyi bölünmeyi seçmek için standart varyans formülünü kullanır daha düşük varyansa sahip bölme popülasyonu bölmek için kriter olarak seçilir.
+ki-kare: en eski karar ağaçları sınıflandırma yöntemlerinden biridir. alt düğümler ve ana düğüm arasındaki farkların istatistiksel önemini bulur. çıktı değişkenin gözlemlenen ve beklenen frekansları arasındaki standartaştırılmış farkların karelerinin toplamıyla ölçülür
+budama: bölmenin tersidir bir karar ağacının yayılımının küçültülmesi için kullanılır
+ön budama: aşırı öğrenmeyi engellemek için kullanılır
+maksimum derinlik: bir karar ağacının maksimum derinliğini geçmek için kullanılır. kök düğümden yaprak düğüme giden en uzun yolun ifade edilmesidir. bu parametreyi belirlenmesi ile ağacın ne kadar derinleşebileceğine karar verilir
+minimum bölme:bir düğümün yeniden bölünmesi için minimum veri sayısınıın verildiği parametredir
+minimum yapraktaki veri: çıktıların yer aldığı yapraklarıdaki veri sayısına göre o yaprağın gösterilip gösterilmeyeceğine karar veren parametredir
+son budama: bu işlem ile oluşturulan karar ağacının budanması sondan başa doğru yapılır
+
+karar ağacı türleri
+ID3,PART,CHAID,CART,MARS,C4.5 bunların yanında birden fazla algortimanın kullanlması ile geliştirlien (ensemble) en popüler olanları
+* bagging: bu yöntem ile eğitim verisinde birden çok alt küme seçilerek tahmin kuvveti yüksek farklı ağaçlar oluşturulur
+* random forest: sınıflandırma için birden fazla rastgeleliği esas alan karar ağaçları oluşturularak bir tahmin ormanı elde edilir.
+* rotation forest: girdi değişkenler üzerine uygulanan temel bileşenler analizi(PCA) ile karar ağaçları oluşturulur
+* Gradient boosted machine, boosted C5.0,Adaboost: gibi algoritmalar günden güne çoğalmaktadır ancak temelde karar ağacı mantığı hareket edip farklılaştıkları noktalar değişkenlere ne zaman ve nasıl değer verdikeri ile ilgilidir
+dtreeviz
+Thu Dec 22 2022 16:14:33 GMT+0300 (GMT+03:00)

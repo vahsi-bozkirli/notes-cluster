@@ -1,0 +1,5 @@
+Apache Yarn
+resourcemanager:iki ana bileşeni vardır:zamanlayıcı(scheduler) ve applicationsmanager(AsM)
+Zamanlayıcı, işin tamamlanması veya izlenmesi için herhangi bir garanti vermez, yalnızca kümeye gönderilen uygulamalara kaynak tahsis etmekten, kapasite ve kuyruk kısıtlaması uygulamaktan sorumludur
+ApplicationsManager(AsM):Uygulama gönderimini kabul etmekten, uygulama yöneticisinin başlaması için kaynak sağlamaktan, uygulama ilerlemesini izlemekten ve uygulama hatası durumunda yeniden başlatmadan sorumlu olan uygulama yöneticilerini küme genelinde yönetmek için kullanılan bir hizmettir.
+Mon Mar 14 2022 09:53:30 GMT+0300 (GMT+03:00)

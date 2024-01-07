@@ -1,0 +1,8 @@
+CRISP DM vs KDD 
+CRISP-DM (Cross Industry Standard Process for Data Mining) ve KDD (Knowledge Discovery in Databases) yöntemleri, veri madenciliği sürecini kapsayan iki farklı yöntemdir. Ancak, aralarında bazı farklar bulunmaktadır:
+
+Aşamalar: CRISP-DM yöntemi altı aşamaya bölünürken, KDD yöntemi dört aşamaya bölünmektedir.
+Orijin : CRISP-DM, veri madenciliği için yaygın olarak kullanılan bir yöntemdir ve birçok sektörde uygulanmıştır. KDD ise veri bilimine odaklı bir yöntemdir ve daha çok veri bilimciler tarafından kullanılmaktadır.
+Öncelik : CRISP-DM yöntemi, veri madenciliği projelerinin yürütülmesi için gereken tüm aşamaları kapsar ve bu nedenle projelerin daha yüksek başarı oranlarına ulaşmasına yardımcı olur. KDD yöntemi ise veri madenciliği projelerinde veri bilimine odaklanır ve veri keşfi aşamasını vurgulamaktadır.
+Hangisi daha iyi? Bu, veri madenciliği projesinin amacına, kaynaklarına ve tarafların veri madenciliği bilgisine göre değişebilir. CRISP-DM yöntemi, veri madenciliği projelerinin yürütülmesi için gereken tüm aşamaları kapsar ve projelerin daha yüksek başarı oranlarına ulaşmasına yardımcı olur. KDD yöntemi ise veri madenciliği projelerinde veri bilimine odaklanır ve veri keşfi aşamasını vurgulamaktadır.
+Sat Jan 14 2023 21:16:50 GMT+0300 (GMT+03:00)

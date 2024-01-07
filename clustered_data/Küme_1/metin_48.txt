@@ -1,0 +1,15 @@
+Kümeleme
+K means 
+Elbow Method
+DBSCAN
+Density Based spatial clustering of applications with noise
+bir öbek noktası tüm veri noktalarını dolaşarak bir çap aralığına göre öbekler oluşturur veriler yeterine uzaksa yeni öbekler oluşturur veya aykırı değer sayar ve dışarda kalır
+Mean Shift
+her hangi bir yerden başlayarak nokta yoğunluğunun olduğu yere doğru gider en yoğun yeri bulduğunda çevresindekileri öbeğe ekler
+Hiyerarşik Öbekleme
+agglomerative clustering 
+disisive clustering
+Expactation Maximazition(EM) using Gaussian Mixture models (GMM)
+yaklaşımları
+Quantum Gaussian Mixture Models(QGMM)
+Wed Feb 16 2022 09:20:45 GMT+0300 (GMT+03:00)

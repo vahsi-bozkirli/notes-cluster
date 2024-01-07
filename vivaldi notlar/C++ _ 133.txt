@@ -1,0 +1,24 @@
+C++ ile ileri seviye konular, temel dil özelliklerini aşan ve daha karmaşık uygulamalar geliştirmenizi sağlayan konuları içerir. İşte C++ ile ileri konuların bazıları:
+
+1. **İşaretçiler (Pointers):** İşaretçiler, bellek yönetimi ve veri yapılarını anlamak için temel bir bileşen olarak kullanılır. İşaretçilerle dinamik bellek tahsisi ve verilerin adresleri üzerinden erişim mümkün olur.
+
+2. **Şablonlar (Templates):** Şablonlar, C++'ın güçlü bir özelliğidir. Generic programlama için kullanılırlar, yani farklı veri türleriyle çalışabilen işlevler ve sınıflar oluşturmanıza olanak tanır.
+
+3. **İstisnalar (Exceptions):** İstisnalar, hata işleme ve programın akışını kontrol etme mekanizmalarıdır. İstisna fırlatma ve yakalama, hataları ele almak için kullanılır.
+
+4. **İlkizler (STL - Standard Template Library):** STL, birçok veri yapısı ve algoritma içeren C++ standart kütüphanesinin bir bölümünü temsil eder. Vektörler, haritalar, yığınlar ve algoritmalar gibi hazır bileşenler sunar.
+
+5. **Akıllı İşaretçiler (Smart Pointers):** Akıllı işaretçiler, bellek sızıntılarını önlemek ve otomatik bellek yönetimi sağlamak için kullanılır. `std::shared_ptr`, `std::unique_ptr` ve `std::weak_ptr` gibi türleri içerir.
+
+6. **Çok İplikli Programlama (Multithreading):** C++11 ve sonraki sürümler, çok iş parçacıklı programlama için standart kütüphane ve dil seviyesi destek sunar. Bu, paralel işleme ve eş zamanlı programlama için önemlidir.
+
+7. **Operator Overloading:** C++ ile operatörlerin aşırı yüklenmesi, sınıf türleri için özel davranışlar tanımlamanıza olanak tanır. Örneğin, `+` operatörünü bir sınıfın özellikleri üzerinde kullanabilirsiniz.
+
+8. **Nesneler Arası İletişim (Interprocess Communication - IPC):** C++ ile farklı işlemler arasında veri paylaşımı ve iletişimi için IPC mekanizmaları kullanabilirsiniz.
+
+9. **Metaprogramlama:** C++ ile metaprogramlama, programlarınızın derleme zamanında işlenmesine olanak tanır. Template metaprogramlama, özellikle C++ metaprogramlamada yaygın olarak kullanılır.
+
+10. **Lambda İfadeler:** C++11'den itibaren, lambda ifadeleri kullanarak işlevleri daha kompakt bir şekilde tanımlayabilirsiniz.
+
+Bu ileri seviye konular, C++'ın daha gelişmiş yeteneklerini ve güçlü özelliklerini kullanmanıza yardımcı olur. Ancak bu konular, temel C++ bilgisine sahip olmayı gerektirir ve daha fazla deneyim ve anlayış gerektirir.
+Fri Oct 13 2023 19:32:11 GMT+0300 (GMT+03:00)

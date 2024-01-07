@@ -1,0 +1,35 @@
+YBS IT KURSU
+Güç kaynağı farklı konnektörler içerir
+20 pinli veya 24 pinli slotlu konektör
+anakarta bağlanır
+24 pinli konektörde her biri 12 pin iki sıra vardır
+20 pinli konektörde her biri 10 pin iki sıra varıdr
+SATA anahtarlı bağlayıcı
+Disk sürücülerini bağlar
+bağlayıcı bir molex bağlayıcısından daha geniş ve incedir
+Molex anahtarlı bağlayıcı
+sabit diskleri optik sürücüleri veya diğer cihazları bağlar
+Berg anahtarlı bağlayıcı
+eski disket sürücülerine bağlanır
+Molex bağlayıcısından daha küçüktür
+4 pinli 8 pinli yardımcı güç bağlayıcısı
+bağlayıcıda iki ila dört iki sıra vardır ve anakartın farklı alanlarına güç sağlar
+yardımcı güç bağlayıcısı ana güç bağlayıcısı ile aynı şekildedir ancak daha küçüktür
+6 veya 8 pinli güç bağlayıcısı
+bağlayıcı üç veya dört pinlik iki sıraya sahiptir ve dahili bileşenlere güç sağlar
+Farklı konektörler de farklı voltajlar sağlar. Sağlanan en yaygın gerilimler 3,3 volt, 5 volt ve 12 volttur. 3,3 volt ve 5 volt sarf malzemeleri tipik olarak dijital devreler tarafından kullanılırken, 12 volt besleme, disk sürücülerinde ve fanlarda motorları çalıştırmak için kullanılır.
+Güç kaynakları aynı zamanda tek raylı, çift raylı veya çok raylı olabilir. Ray, harici kabloların bağlı olduğu güç kaynağının içindeki baskılı devre kartıdır (PCB). Tek bir rayda tüm konektörler aynı PCB'ye bağlanırken, çok raylı bir PCB'de her konektör için ayrı PCB'ler bulunur.
+bir bilgisayar güçteki hafif dalgalanmaları tolere edebilir, ancak önemli bir sapma güç kaynağının arızalanmasına neden olabilir.
+anakart
+elektronik bileşenleri birbirine bağlayan yollar (bus) veya elektrik yolları içeren baskı devre kartıdır (PCB). Bu bileşenler doğrudan anakart üzerine lehimlenebilir veya soketler, genişletme yuvaları ve bağlantı noktaları kullanılarak eklenebilir.
+Merkezi İşlem Birimi (CPU) - Bu bilgisayarın beyni olarak kabul edilir.
+Rastgele Erişimli Bellek (RAM) - Verileri ve uygulamaları depolamak için kullanılan geçici bir yerdir.
+Genişletme yuvaları - Ek bileşenleri bağlamak için alan sağlarlar.
+Yonga seti - Sistem donanımının CPU ve anakart ile nasıl etkileşime girdiğini kontrol eden anakart üzerindeki entegre devrelerden oluşur. Ayrıca, bir anakart ve anakart üzerindeki konektörlerin türüne ne kadar bellek eklenebileceğini de belirler.
+Temel giriş / çıkış sistemi (BIOS) çipi ve Birleşik Genişletilebilir Ürün Yazılımı Arabirimi (UEFI) çipi- BIOS, bilgisayarı önyüklemeye ve sabit sürücü, ekran kartı, klavye, fare ve daha fazlası arasındaki veri akışını yönetmeye yardımcı olmak için kullanılır. Son zamanlarda BIOS UEFI ile geliştirildi. UEFI, önyükleme ve çalışma zamanı hizmetleri için farklı bir yazılım arabirimi belirler, ancak yine de sistem yapılandırması, kendi kendini test etme (POST) ve kurulum için geleneksel BIOS'a güvenir.
+Kuzey Köprüsü — RAM ve ekran kartına yüksek hızlı erişimi denetler. Ayrıca CPU'nun bilgisayardaki diğer tüm bileşenlerle iletişim kurma hızını da kontrol eder. Video yeteneği bazen Kuzey Köprüsü'ne entegre edilir.
+Güney Köprüsü — CPU'nun sabit diskler, Evrensel Seri Veri Yolu (USB) bağlantı noktaları ve genişletme yuvaları gibi daha yavaş cihazlarla iletişim kurmasına izin verir.
+CPU
+Pin Izgara Dizisi (PGA) - (Şekil 1) PGA yapısında, pinler işlemci paketinin alt tarafındadır ve sıfır ekleme kuvveti (ZIF) kullanılarak ana kart CPU soketine yerleştirilir. ZIF, anakart soketine veya yuvasına bir CPU takmak için gereken kuvvet miktarını ifade eder.
+Kara Izgara Dizisi (LGA) - (Şekil 2) Bir LGA mimarisinde, pinler işlemci yerine sokette bulunur.
+Sat Mar 26 2022 18:09:10 GMT+0300 (GMT+03:00)

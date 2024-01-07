@@ -1,0 +1,8 @@
+ETL ve ELT Farkı
+Üst düzeyde, ETL yüklemeden önce verilerinizi dönüştürürken, ELT verileri yalnızca deponuza yükledikten sonra dönüştürür.
+
+ETL işlemleri, veri kaynaklarından veri çekilir, veri işlenir ve sonuç olarak bir hedefe yüklenir. Veri işleme işlemleri, verinin yapısını değiştirme veya veriyi temizleme gibi işlemleri içerebilir.
+
+ELT işlemleri ise, veri kaynaklarından veri çekilir ve hedefe yüklenir, ancak veri işleme işlemleri hedef sistemde gerçekleştirilir. Bu yöntem, veri işleme işlemlerinin daha esnek ve ölçeklenebilir olmasını sağlar, ancak veri çekme işlemlerinin daha uzun sürdüğü ve veri işleme işlemlerinin hedef sistemde gerçekleştirildiği için performansın daha düşük olma olasılığı vardır.
+
+Fri Jan 06 2023 13:32:30 GMT+0300 (GMT+03:00)

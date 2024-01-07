@@ -1,0 +1,4 @@
+Boosting, zayıf öğrenicilerin seri halde(birbirlerine sırasıyla bağlanmış) bir araya gelerek birbirlerinin hatalarını kapatmaya çalışmasıdır
+
+**AdaBoost  ikili sınıflandırmayı öğrenmek için geliştirilen ilk boosting algoritmasıdır Adaptive boosting in kısaltmasıdır [Yoav Freund](https://en.wikipedia.org/wiki/Yoav_Freund) ve [Robert Schapire](https://en.wikipedia.org/wiki/Robert_Schapire) tarafından formüle edilmiştir, 2003 te Gödel ödülü kazanmıştır
+Fri Dec 30 2022 10:20:49 GMT+0300 (GMT+03:00)

@@ -1,0 +1,4 @@
+from pandas.api.types import CategoricalDtype
+değişkenadı.astype(CategoricalDtype(ordered=True))
+değişkenadı.astype(Categoricaldtype(categories=["içerik1","içerik2"],ordered=True))
+Tue Mar 15 2022 12:59:32 GMT+0300 (GMT+03:00)

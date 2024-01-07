@@ -1,0 +1,22 @@
+Epsilon-Insensitive Loss (ya da "Tube Loss") fonksiyonu, Destek Vektör Makinesi (SVM) için regresyon problemlerinde kullanılan bir optimizasyon fonksiyonudur. Bu fonksiyon, gerçek değerler ile tahmini değerler arasındaki farkı minimize etmek için kullanılır.
+
+Epsilon-Insensitive Loss fonksiyonu için kullanılan parametreler arasında:
+
+epsilon (ε) parametresi bulunur. Bu parametre, gerçek değerler ile tahmini değerler arasındaki farkın ne kadar büyük olmasına izin verileceğini belirler. Örneğin, epsilon değeri 0.1 olsun, gerçek değerin 0.08 ile 0.12 arasında olması kabul edilirken, modelin tahmini değer 0.1 olduğunda hata değer 0 olur.
+
+C parametresi: Bu parametre, hiperdüzlemin ne kadar sıkı bir sınırlandırma yapması gerektiğini belirler. Eğer C değeri büyükse, hiperdüzlem daha sıkı bir sınırlandırma yapar ve daha az hata oranına sahip olur, ancak daha yük
+
+￼
+￼
+￼
+￼
+devam et
+C parametresi: Bu parametre, hiperdüzlemin ne kadar sıkı bir sınırlandırma yapması gerektiğini belirler. Eğer C değeri büyükse, hiperdüzlem daha sıkı bir sınırlandırma yapar ve daha az hata oranına sahip olur, ancak daha yüksek bir overfitting riski vardır.
+
+Kernel parametresi: Bu parametre, verilen eğitim verileri için nasıl bir hiperdüzlem bulunması gerektiğini belirler. Örneğin, lineer kernel verilen eğitim verileri için lineer bir hiperdüzlem bulurken, RBF kernel verilen eğitim verileri için daha kompleks bir hiperdüzlem bulabilir.
+
+Regularization parametresi: Bu parametre, hiperdüzlemde yer alan hata oranının ne kadar kabul edilebilir olduğunu belirler.
+
+Bu parametreler, Epsilon-Insensitive Loss fonksiyonunun nasıl çalıştığını ve gerçek değerler ile tahmini değerler arasındaki farkı minimize etmesi için gerekli olan hiperdüzlemi bulmasını sağlar.
+Fri Jan 20 2023 07:14:45 GMT+0300 (GMT+03:00)
+https://chat.openai.com/chat

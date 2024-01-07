@@ -1,0 +1,5 @@
+Gradient Descent (Eğim inişi): Bu yöntem, veri setindeki noktalar ile tahmin edilen doğru arasındaki kayıp fonksiyonunun gradientini takip ederek doğru parametrelerini optimize etmeye çalışır.
+
+Least Absolute Deviations (En Küçük Mutlak Sapmalar): Bu yöntem, veri setindeki noktalar ile tahmin edilen doğru arasındaki farkın mutlak değerlerinin toplamını minimuma indirmeyi hedefler.
+Thu Jan 19 2023 23:50:38 GMT+0300 (GMT+03:00)
+https://chat.openai.com/chat?__cf_chl_tk=hbwnV38x8Bi8EPI45auCsZclx4A.aEZoMe_tIbEhY4o-1674159425-0-gaNycGzNE1E

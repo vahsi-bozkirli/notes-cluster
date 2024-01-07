@@ -1,0 +1,5 @@
+Hipotez Testi
+* Hipotez, sonuç olasılığına dayanan eğitimli bir tahmindir. Bilim adamları, konuyla ilgili mevcut tüm araştırmaları anladıktan sonra hipotezler formüle ederler. Hipotezler en az iki değişken arasındaki ilişkiyi belirtir ve test edilebilir. Bir hipotezin düzgün çalışması için, diğer bilim adamları bunu kanıtlayan veya çürüten sonuçları yeniden üretebilmelidir. İki tür hipotez vardır: tanımlayıcı bir hipotez bir soru sorar ve yönlü bir hipotez bir açıklama yapar.
+* Bilimsel yöntem, hipotezlerin işlev gördüğü süreçtir. Bilim adamları, zaman içinde dünyanın doğru bir resmini oluşturmak için bilimsel yöntemi kullanırlar. Bilimsel yöntem, bilim insanının önyargısını araştırmadan çıkarmaya çalışır. Bilimsel yöntemin dört bölümü gözlem ve açıklama, bir hipotezin formülasyonu, hipotezin tahmini için kullanımı ve hipotezin test edilmesinin performansıdır. Bilim adamları, hipotezleri kanıtlamak yerine çürütmek için bilimsel yöntemi kullanırlar. Çürütülemezlerse, zaman içindeki hipotezler kabul edilen teoriler haline gelir.
+
+Fri Dec 30 2022 10:13:45 GMT+0300 (GMT+03:00)

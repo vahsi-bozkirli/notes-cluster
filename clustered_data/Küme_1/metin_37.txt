@@ -1,0 +1,21 @@
+Evet, IEEE 802 ailesi, 802.11, 802.3 ve 802.15'in yanı sıra diğer bazı standartları da içerir. İşte bazı önemli 802 standartları:
+
+
+802.1: Bu standart, ağdaki LAN (Local Area Network) ve VLAN (Virtual Local Area Network) yapılandırmalarını tanımlar. Ayrıca ağ yönetimi ve ağ güvenliği için protokoller ve yönergeler sunar.
+
+
+802.16: Bu standart, "WiMAX" olarak bilinen kablosuz geniş alan ağlarını (Wireless Metropolitan Area Networks) tanımlar. WiMAX, uzun mesafelerde yüksek hızlı kablosuz bağlantı sağlayan bir teknolojidir.
+
+
+802.20: Bu standart, mobil genişbant kablosuz iletişim ağlarını tanımlar. "Mobile Broadband Wireless Access" (MBWA) olarak bilinen bu teknoloji, taşınabilir cihazlara yüksek hızlı veri erişimi sağlar.
+
+
+802.22: Bu standart, beyaz alan ağlarını (White Space Networks) tanımlar. Beyaz alanlar, televizyon yayınlarından kullanılmayan RF frekans bandlarını ifade eder. 802.22 standardı, bu boşlukları kullanarak geniş alan kapsama sağlayan kablosuz ağlar oluşturmayı amaçlar.
+
+
+802.24: Bu standart, acil durum ağlarını tanımlar. Acil durum ağları, afet durumlarında iletişimi sağlamak amacıyla tasarlanmış kablosuz ağlardır. Örneğin, afet bölgelerinde haberleşme altyapısı hasar gördüğünde, 802.24 standardı kullanılarak geçici iletişim ağları oluşturulabilir.
+
+
+Bu, sadece bazı önemli 802 standartlarının birkaç örneğidir. IEEE 802 ailesi, çeşitli kablosuz ve kablolu iletişim teknolojilerini kapsayan geniş bir standart koleksiyonudur. Her bir standart, farklı ağ tipleri ve ihtiyaçları için belirli protokoller, özellikler ve yönergeler sunar.
+Wed Jun 14 2023 16:27:26 GMT+0300 (GMT+03:00)
+https://tr.wikipedia.org/wiki/10BASE-T

@@ -1,0 +1,9 @@
+OSEMN 
+OSEMN, veri bilimi ve makine öğrenimi projelerinde kullanılan bir işlem çerçevesidir. Bu çerçeve, CRISP-DM işlem sürecinin bir varyasyonudur ve veri bilimcilerinin proje aşamaları boyunca yön vermek için kullanılır. OSEMN işlem sürecinin aşamaları şöyle:
+
+Obtain (Elde etmek): Proje için gerekli olan veriyi toplamak veya elde etmek.
+Scrub (Temizlemek): Analiz için veriyi temizlemek ve hazırlamak.
+Explore (Keşfetmek): Veriyi keşfetmek ve verideki ilişkiler ve desenler hakkında hipotezler oluşturmak.
+Model (Modellemek): Hipotezleri test etmek ve tahminler yapmak için uygun modelleri seçmek ve uygulamak.
+Interpret (Yorumlamak): Modellemek için elde edilen sonuçları yorumlamak ve anlamak.
+Sat Jan 14 2023 21:33:07 GMT+0300 (GMT+03:00)

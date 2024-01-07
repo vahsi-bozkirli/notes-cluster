@@ -1,0 +1,9 @@
+Doğrusal regresyon modeli, y = mx + b formülünü kullanarak veri setindeki noktaları en iyi şekilde temsil eden bir doğruyu bulmaya çalışır. Bu formülde, m ve b parametreleridir.
+
+m : eğim, doğrunun eğimi olarak tanımlanır.
+b : kesim noktası, doğrunun x ekseni üzerindeki kesişim noktası olarak tanımlanır.
+Bu parametreler, modelin eğitim sırasında optimize edilir. Optimizasyon algoritması, veri setindeki noktalar ile tahmin edilen doğru arasındaki farkı (kayıp fonksiyonunu) minimuma indirmeye çalışır. Modelin parametreleri optimize edildiğinde, model veri setine en uygun doğruyu tahmin edebilir.
+
+Ağırlık ve bias, genellikle neural network modellerinde kullanılan terimlerdir. Ağırlıklar, her bir girdi değişkeni için ayrı ayrı tanımlanır ve modelin çıktısını etkileyebilir. Bias ise, her bir çıktı değişkeni için tanımlanır ve modelin çıktısını etkileyebilir. Neural network modellerinde, ağırlıklar ve biaslar modelin parametreleri olarak düşünülebilir ve eğitim sırasında optimize edilir.
+Thu Jan 19 2023 23:55:53 GMT+0300 (GMT+03:00)
+https://chat.openai.com/chat?__cf_chl_tk=hbwnV38x8Bi8EPI45auCsZclx4A.aEZoMe_tIbEhY4o-1674159425-0-gaNycGzNE1E

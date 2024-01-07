@@ -1,0 +1,9 @@
+Optimizasyon fonksiyonu, model eğitiminin son aşamasında çalışır. Bu aşamada, modelin parametrelerine başlangıç değerleri verilir ve optimizasyon algoritması bu değerleri düzenleyerek en iyi performansı sağlayan değerlere getirir.
+
+Model eğitiminde öncelikle, veri seti hazırlanır ve modelin yapısı tanımlanır. Daha sonra, modelin parametrelerine başlangıç değerleri verilir. Bu başlangıç değerleri, modelin önceden eğitildiği veri setlerinden elde edilen değerler, rastgele seçilen değerler veya el ile belirlenen değerler olabilir. Başlangıç değerleri, modelin performansını etkileyebilir, ancak optimizasyon algoritması genellikle bu değerleri düzeltir ve en iyi performansı sağlayan değerlere getirir.
+
+Daha sonra, kayıp fonksiyonu tanımlanır. Kayıp fonksiyonu, modelin tahminleri ile gerçek değerler arasındaki farkı ölçer. Optimizasyon fonksiyonu, kayıp fonksiyonunun minimum değerini bulmaya çalışır.
+
+Son olarak, optimizasyon algoritması çalıştırılır ve modelin parametreleri düzenlenir. Optimizasyon algoritması, kayıp fonksiyonunun değerini azaltmak için modelin parametrelerini iteratif olarak değiştirir. Bu iteratif değişimler sonunda, optimizasyon algoritması kayıp fonksiyonunun minimum değerine ulaşır ve modelin parametreleri en iyi performansı sağlayan değerlere getirilir.
+Thu Jan 19 2023 23:53:50 GMT+0300 (GMT+03:00)
+https://chat.openai.com/chat?__cf_chl_tk=hbwnV38x8Bi8EPI45auCsZclx4A.aEZoMe_tIbEhY4o-1674159425-0-gaNycGzNE1E

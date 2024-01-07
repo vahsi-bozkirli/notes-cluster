@@ -1,0 +1,5 @@
+Doğrusal regresyon modeli, veriler arasındaki doğrusal ilişkiyi tahmin etmek için kullanılan bir model türüdür. Bu model, veri noktalarının bir doğrusal fonksiyonla en iyi şekilde açıklandığını varsayar.
+Doğrusal regresyon modeli, genellikle "least squares" yöntemi ile eğitilir. Bu yöntem, veriler arasındaki doğrusal ilişkiyi en iyi şekilde açıklamak için modelin ağırlıklarını optimize etmek için kullanılan bir optimizasyon fonksiyonudur. Bu fonksiyon, veriler arasındaki hata karelerinin toplamını azaltmaya çalışır. Bu hata kareleri, tahmin edilen değerler ile gerçek değerler arasındaki farkı ölçer ve modelin doğruluğunu değerlendirmek için kullanılır.
+Başka optimizasyon fonksiyonları da kullanılabilir ancak least squares yöntemi en yaygın olarak kullanılan optimizasyon fonksiyonudur. Örneğin Gradient Descent algoritması kullanarak doğrusal regresyon modelleri de eğitilebilir.
+Thu Jan 19 2023 23:36:24 GMT+0300 (GMT+03:00)
+https://chat.openai.com/chat

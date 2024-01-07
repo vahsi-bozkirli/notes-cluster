@@ -1,0 +1,26 @@
+Makine Öğrenmesi
+babası Frank ROSENBLATT dır 1957 de yazdığı makale ile makine öğrenimine değinmiştir
+Minsky nin yazdığı makale ile bir süre önemini yitirmiştir (Y.Z kışı)
+Gerald TESAURO tavla oynamak için M.Ö algoritmalarını eğitti (TD Gammon)
+Türleri
+gözetimli öğrenme
+gözetimsiz öğrenme
+pekiştirmeli öğrenme
+tahmin kalitesini ölçmek için hata fonksiyonları kullanılır
+ör: mse
+kaçınılmaz hatadan dolayı hiç bir fonksiyon verilere tam oturmaz (epsilon)
+değişkenden kasıt tahminde kullanılan verilerdir
+ör: çalışma-saati , maaş iki değişkenlidir 
+      çalışma-saati, eğitim-düzeyi, maaş üç değişkenlidir
+bayes sınıflandırıcısı
+öğrenmeden en mantıklı sınıflandırmayı yapar
+bayes sınıflandırıcısının hata fonksiyonuna bayes error rate denir gerçekte bayes kullanmak isteriz(altın standartdır) ama verilerin nasıl dağıldığını bilmeyiz
+KNN 
+en yakın komşulara bakar(k kadar en yakın komşu) en bu komşuların içinden en çok hangi sınıf varsa onu seçer
+k arttıkça varyans düşer esneklik azalır ve bias artar
+"""
+Accuracy, tahminlerin % kaçının doğru olduğunu belirtir. Dengesiz veri setlerinde accuracy yüksek çıkar, biz de çok iyi tahmin yaptık diye düşünürüz. İşte bu duruma accuracy paradoks denir. Tahmin doğruluğunu gösteren bu metrik dengesiz veri setlerinde çöp metriğe dönüşür. Recall ve precision değerleri önem kazanır.
+Yani, accuracy yüksek fakat recall veya precision düşük çıkıyorsa burada bir dengesizlik var sanırım demelisiniz!
+"""
+Mon Jun 14 2021 17:14:36 GMT+0300 (GMT+03:00)
+https://www.udemy.com/course/makine-ogrenmesi-egitimi/learn/lecture/25117752#overview

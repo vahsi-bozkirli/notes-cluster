@@ -1,0 +1,3 @@
+Dedüksiyon, bir sonuca varmak için genel bir kural veya prensip kullanarak özel durumları inceleme sürecidir. Dedüktif düşünce süreci genel kurallardan özel durumlara geçişi sağlar. Bu süreçte genel bir kural, prensip veya teoremi kabul edilir ve bu genel bilgiye dayalı olarak özel durumların sonucu tahmin edilir. Örneğin, tüm kuşlar uçar kuralı genel bir kuraldır ve bu kurala dayalı olarak tüm kuşların uçabileceği tahmin edilir. Bu yöntem genellikle matematik ve mantık alanlarında kullanılır, ancak diğer alanlarda da kullanılabilir
+Thu Jan 19 2023 16:48:36 GMT+0300 (GMT+03:00)
+https://chat.openai.com/chat

@@ -1,0 +1,18 @@
+SEMMA avantaj ve dezavantaj
+SEMMA (Sample, Explore, Modify, Model, Assess) yöntemi, SAS tarafından geliştirilmiş bir veri madenciliği yöntemidir ve CRISP-DM'ye benzer şekilde veri madenciliği sürecini kapsar. SEMMA yöntemi, veri madenciliği projelerinin yürütülmesi için aşağıdaki beş aşamayı içerir:
+Sample (Örnekleme): Örnekleme yöntemi kullanılarak veri seti seçilir.
+Explore (Keşfetme): Veri seti keşfedilir ve veri setinde yer alan bilgiler incelenir.
+Modify (Değiştirme): Veri seti gerektiği gibi değiştirilir.
+Model (Modelleme): Veri seti kullanılarak model oluşturulur.
+Assess (Değerlendirme): Oluşan modelin başarısı değerlendirilir.
+Avantajlar:
+SEMMA, veri madenciliği sürecini kolay anlaşılır ve sistematik bir şekilde ele alır.
+SEMMA, veri madenciliği projelerinde yer alan taraflar arasında işbirliği ve işbirliği için gerekli olan komunikasyonu sağlar.
+SEMMA, veri madenciliği projelerinde etkili bir şekilde veri keşfi yapılmasına olanak tanır.
+SEMMA, veri madenciliği projelerinde modelleme aşamasının daha etkili hale getirilmesine olanak tanır.
+Dezavantajlar:
+SEMMA, veri madenciliği projelerinin yürütülmesi için gereken bütçe ve zaman gibi kaynakların yüksek olmasını gerektirir.
+SEMMA, veri madenciliği projelerinde yer alan tarafların yeterli seviyede veri madenciliği bilgisine sahip olmasını gerektirir.
+SEMMA, veri madenciliği projelerinde ihtiyacı olan veri miktarının büyüklüğünden dolayı bazen zorluklar oluşabilir.
+SEMMA, veri madenciliği projelerinde çok fazla zaman ve çaba gerektirecek ayrıntılı bir planlama ve dokümantasyon gerektirir
+Sat Jan 14 2023 20:08:11 GMT+0300 (GMT+03:00)

@@ -1,0 +1,3 @@
+Otososyative hafıza
+* Otomatik ilişkilendirme belleği veya otomatik ilişkilendirme ağı olarak da bilinen otomatik ilişkilendirilebilir bellek, yalnızca küçük bir örnekten bir veri parçası alabilen her türlü bellektir. Girişteki parazitin gürültüsünden arındırılmasında veya çıkarılmasında çok etkilidirler ve verilen girdinin “biliniyor” veya “bilinmiyor” olup olmadığını belirlemek için kullanılabilirler.
+Wed Jan 11 2023 13:23:40 GMT+0300 (GMT+03:00)

@@ -1,0 +1,9 @@
+AdaBoost
+zayıf öğrenici algoritmaların kullanıldığı algoritma paketi 
+zayıf öğreniciler katsayılarda yaptıkları hataların diğer öğrenicide düzeltilmesi için katsayıları büyütür doğru katsayılar ise küçültülür
+GradienBoosting ise ağırlıkların değerini büyütmektense tahmin ile gerçek değerin farkına odaklanır
+Gradient Descenta benzer ama tek farkla tek bir noktanın değil modelin yitimine odaklanır
+XGBoost 
+eXtreme Gradient Boosting
+Gradient Boosting modelleri sırasıyla çalıştırır iken XGBoost eşzamanlı çalıştırır
+Mon Mar 14 2022 10:32:43 GMT+0300 (GMT+03:00)

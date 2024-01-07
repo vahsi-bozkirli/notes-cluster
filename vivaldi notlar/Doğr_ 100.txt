@@ -1,0 +1,5 @@
+Doğrusal regresyon modeli için kullanılan formül, y = mx + b formülüdür. Bu formül, eğim (m) ve kesim noktası (b) parametrelerini içerir. Bu parametreler, modelin eğitim sırasında optimize edilir.
+
+m ve b değerleri, başlangıçta rastgele seçilen değerler veya el ile belirlenen değerler olabilir. Bu başlangıç değerleri, modelin performansını etkileyebilir, ancak optimizasyon algoritması genellikle bu değerleri düzeltir ve en iyi performansı sağlayan değerlere getirir. Optimizasyon algoritması, veri setindeki noktalar ile tahmin edilen doğru arasındaki kayıp fonksiyonunu azaltmaya çalışır ve m ve b değerleri en uygun değerlerine getirilir.
+Fri Jan 20 2023 00:05:16 GMT+0300 (GMT+03:00)
+https://chat.openai.com/chat?__cf_chl_tk=hbwnV38x8Bi8EPI45auCsZclx4A.aEZoMe_tIbEhY4o-1674159425-0-gaNycGzNE1E

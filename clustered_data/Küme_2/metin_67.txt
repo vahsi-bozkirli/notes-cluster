@@ -1,0 +1,7 @@
+SEMMA vs KDD
+KDD (Knowledge Discovery in Databases) ve SEMMA (Sample, Explore, Modify, Model, Assess) veri madenciliği sürecini kapsayan iki farklı yöntemdir. Ancak, aralarında bazı farklar bulunmaktadır:
+Aşamalar: KDD yöntemi dört aşamaya bölünürken, SEMMA yöntemi beş aşamaya bölünmektedir.
+Odaklanma: KDD yöntemi veri bilimine odaklıdır, veri keşfi aşamasını vurgulamaktadır. SEMMA yöntemi ise veri madenciliği sürecinin tüm aşamalarını kapsar.
+Kullanım: SEMMA yöntemi SAS veri madenciliği araçlarının kullanımı için tasarlanmıştır, SAS'ın veri madenciliği sürecinde kullanılan araçları ile uyumlu olarak çalışır.
+Hangisi daha iyidir? Bu, veri madenciliği projesinin amacına, kaynaklarına ve tarafların veri madenciliği bilgisine göre değişebilir. Eğer veri madenciliği sürecinin tüm aşamalarını kapsamak isteniyorsa SEMMA yöntemi, veri bilimine odaklı projeler için ise KDD yöntemi tercih edebilir.
+Sat Jan 14 2023 21:10:30 GMT+0300 (GMT+03:00)

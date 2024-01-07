@@ -1,0 +1,8 @@
+python işlem önceliği
+# 1.mod
+# 2.bölme
+# 3.üssel çarpım
+# 4.çarpım
+# 5.toplama
+# 6.çıkarma
+Tue Nov 07 2023 17:02:31 GMT+0300 (GMT+03:00)

@@ -1,0 +1,6 @@
+OSEMN vs CRISP DM 
+OSEMN ve CRISP-DM, veri bilimi ve makine öğrenimi projelerinde kullanılan işlem çerçeveleridir. Ancak, iki süreç arasında bazı farklılıklar vardır:
+Aşamalar: OSEMN, CRISP-DM'nin aşamalarının bir varyasyonudur. OSEMN, CRISP-DM'nin Data Preparation ve Modeling aşamalarını birleştirir ve Modelleme aşamasına Interpretation (Yorumlama) aşamasını ekler.
+Önemli olan konular: CRISP-DM, veri bilimi projelerinde işletmelerin ihtiyacını karşılamak için tasarlanmıştır. OSEMN ise veri biliminde özellikle verinin nasıl elde edileceği, nasıl temizleneceği, nasıl keşfedileceği ve nasıl yorumlanacağı konularına odaklanır.
+Daha güncel: OSEMN, CRISP-DM'nin bir varyasyonudur ve daha yeni bir süreçtir. Ancak, her iki sürecin de güncel olarak kullanıldığını ve herhangi birinin daha iyi olduğunu söylemek için yeterli bilgi yok. Hangi sürecin daha iyi olduğu, proje spesifiklerine, veri bilimcisi tarafından kullanılan tekniklere ve proje ihtiyacına göre değişebilir.
+Sat Jan 14 2023 21:33:36 GMT+0300 (GMT+03:00)

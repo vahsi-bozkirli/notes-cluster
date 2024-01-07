@@ -1,0 +1,13 @@
+Hinge Loss (ya da "maximum-margin" loss) fonksiyonu: 1990'lı yıllarda Vapnik ve diğer araştırmacılar tarafından SVM için ilk olarak kullanılmıştır.
+
+Epsilon-Insensitive Loss (ya da "Tube Loss") fonksiyonu: 1990'lı yılların sonunda ve 2000'li yılların başında regresyon problemleri için SVM kullanımında kullanılmıştır.
+
+L1 Loss (ya da "Least Absolute Deviation") ve L2 Loss (ya da "Least Squares") fonksiyonları: 2000'li yılların başından bu yana SVR için kullanılmıştır.
+
+Log Loss fonksiyonu: 2000'li yılların başından itibaren sınıflandırma problemleri için SVM kullanımında kullanılmıştır.
+
+Squared Hinge Loss fonksiyonu: 2000'li yılların ortalarından itibaren sınıflandırma problemleri için SVM kullanımında kullanılmıştır.
+
+Bu tarihler genel bir yol göstericidir ve herhangi bir optimizasyon fonksiyonunun tarihçesinde değişiklik olabilir.
+Fri Jan 20 2023 07:05:22 GMT+0300 (GMT+03:00)
+https://chat.openai.com/chat

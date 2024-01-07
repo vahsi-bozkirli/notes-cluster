@@ -1,0 +1,18 @@
+Loss fonksiyonları
+* **Binary Cross Entropy**: İkili Çapraz Entropi kaybı fonksiyonu, çıktıyı 0 ila 1 arasında bir olasılık olarak veren ikili sınıflandırma modelleri için gerçek etiketler ve öngörülen etiketler arasındaki kaybı bulur.
+* **Categorical Cross Entropy**: Bu, Keras'ta sınıflandırma için ikinci olasılık kaybı fonksiyonudur ve yukarıda tartıştığımız ikili çapraz entropinin genelleştirilmiş bir versiyonudur. Kategorik Çapraz Entropi, ikiden fazla sınıf etiketinin bulunduğu çok sınıflı sınıflandırma için kullanılır.
+* **KL Divergence**: KL Diverjans veya Kullback-Leibler Divergen Kaybı fonksiyonu, sürekli dağılım durumunda gerçek değer ile öngörülen değer arasında hesaplanır.
+* **Poisson Loss**: Poisson kayıp fonksiyonunda, gerçek değer ile öngörülen değer arasındaki Poisson kaybını hesaplıyoruz. Poisson Kayıp Fonksiyonu genellikle Poisson dağılımından oluşan veri kümelerinde kullanılır. Poisson dağıtımına bir örnek, çağrı merkezi tarafından bir saat içinde alınan çağrıların sayısıdır.
+* **Hinge**: Sınıflandırma için yukarıdaki Keras kayıp fonksiyonları, hesaplama için temel olarak olasılık kaybını kullanıyordu. Şimdi Keras'ta SVM'deki gibi maksimum marj sınıflandırması için Hinge Kaybı kullanan bazı kayıp fonksiyonlarını göreceğiz
+* **Squared Hinge Loss**: Kare Hinge kaybı, squared_hinge () işlevi kullanılarak hesaplanır ve sonucun karesi dışında yukarıda tartışılan Hinge Kaybı hesaplamasına benzer.
+* **Categorical Hinge Loss**: İkinci menteşe kaybı fonksiyonu, kategorik menteşe kaybı fonksiyonudur. Çoklu sınıf sınıflandırması için gerçek değerler ve öngörülen değerler arasındaki kategorik menteşe kaybının hesaplanmasına yardımcı olabilir.
+
+## Regresyon için Loss Fonksiyonları
+* **MSE**
+* **MAE**
+* **Cosine Similarity**: Etiketler ve tahminler arasındaki kosinüs benzerlik kaybını hesaplamak için kosinüs benzerliğini kullanıyoruz. Kosinüs benzerliğinin değeri -1 ila 1 arasında değişir.
+* **Huber Loss**: Verilerin aykırı değerlerden daha az etkilendiği regresyonla ilgili problemlerde yumru kaybı fonksiyonunu kullanabiliriz.
+
+## add_loss()
+Yukarıda gördüğümüz gibi, Keras'taki özel kayıp fonksiyonunun, y_true ve y_pred'in argüman olarak özel bir imzasını kullanma kısıtlaması vardır. Keras, bu kısıtlamaya sahip olmayan başka bir add_loss () API seçeneği sunar.
+Wed Dec 28 2022 12:54:26 GMT+0300 (GMT+03:00)

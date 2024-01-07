@@ -1,0 +1,24 @@
+cross val score!=gridsearchCV
+gridsearchcv cross val score kullanır
+gridsearchcv verilen model parametrelerine göre cross val score uygular
+cross val score verinin train ve teste ayrılmış bölümlerini verilen sayıya göre parçalara böler ve her bir parçayı değerlendirerek en iyi eğitim-test ikilisini bulur 
+cross val score 
+veri seti büyükse test datayı bir kenara ayırıp train ile cross val score yaparız
+veri seti küçükse verinin kendisiyle cross val score yaparız
+zaman serisi analizlerinde (verinin sırasının önemli olduğu yerlerde) KULLANILAMAZ!
+En temel cross-validation yöntemlerinden olan K-Fold CV yöntemi üzerinden çalışma mantığına göz atalım :
+Veri seti rastgele olacak şekilde karıştırılır. (opsiyonel)
+Veri seti k gruba ayrılır.
+Her grup icin aşağıdaki adımlar uygulanır :
+Seçilen grup validasyon seti olarak kullanılır.
+Diğer tüm gruplar (k-1 grup) train seti olarak kullanılır.
+Train seti kullanılarak model kurulur ve validasyon seti ile değerlendirilir.
+Stratified K fold cross val score validation
+cross val scoreda verinin rastgele dağıtılması verinin dağılımını bozabilir
+bu bazı veri setlerinde sorun çıkarabilir
+stratified k fold cross validation: veriyi parçalarken ortalama dağılımlar gerçek veriye benzetilir,böylece parçalar veri setini daha iyi ifade eder
+btkakademi 10şubat 5:24:51, 5:48:08
+11 şubat 12:33 geri yayılım
+14 şubat 4:21:00,4:59:00,5:24:00
+marla la croft
+Wed Feb 16 2022 09:42:06 GMT+0300 (GMT+03:00)

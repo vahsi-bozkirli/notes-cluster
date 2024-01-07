@@ -1,0 +1,13 @@
+CRISP-DM avantaj ve dezavantaj 
+(Cross Industry Standard Process for Data Mining), veri madenciliği için yaygın olarak kullanılan bir yöntemdir ve aşağıdaki avantajları ve dezavantajları vardır:
+Avantajlar:
+CRISP-DM, veri madenciliği sürecini kolay anlaşılır ve sistematik bir şekilde ele alır.
+CRISP-DM, veri madenciliği projelerinin yürütülmesi için gereken tüm aşamaları kapsar ve bu nedenle projelerin daha yüksek başarı oranlarına ulaşmasına yardımcı olur.
+CRISP-DM, veri madenciliği projelerinin yürütülmesi için gerekli olan tüm kaynakların (insan, teknoloji, veri) etkili bir şekilde yönetilmesini sağlar.
+CRISP-DM, veri madenciliği projelerinde tüm taraflar arasında işbirliğini ve işbirliği için gerekli olan komunikasyonu sağlar.
+Dezavantajlar:
+CRISP-DM, veri madenciliği projelerinin yürütülmesi için gereken bütçe ve zaman gibi kaynakların yüksek olmasını gerektirir.
+CRISP-DM, veri madenciliği projelerinde yer alan tarafların yeterli seviyede veri madenciliği bilgisine sahip olmasını gerektirir.
+CRISP-DM, veri madenciliği projelerinde ihtiyacı olan veri miktarının büyüklüğünden dolayı bazen zorluklar oluşabilir.
+CRISP-DM, veri madenciliği projelerinde çok fazla zaman ve çaba gerektirecek ayrıntılı bir planlama ve dokümantasyon gerektirir.
+Sat Jan 14 2023 20:04:52 GMT+0300 (GMT+03:00)

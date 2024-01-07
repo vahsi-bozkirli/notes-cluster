@@ -1,0 +1,20 @@
+Optimizasyon fonksiyonları
+* SGD
+* RMSprop
+* Adam
+* AdaDelta
+* AdaGrad
+* AdaMax
+* NAdam
+* Ftrl
+
+  * **SGD**: SGD optimize edici momentum ile birlikte eğim inişini kullanır. Bu tip optimize edicide, degrade hesaplaması için bir parti alt kümesi kullanılır.
+  * **RMSProp(Root Mean Square propagation)**: RMSProp optimize edicisinde amaç, gradyanların ortalama karesinin sürekli hareketini sağlamaktır. İkincisi, degradenin ortalamanın köküne bölünmesi de gerçekleştirilir.
+  * **Adam(Adaptive Moment Estimation)**: Adam optimize edici, optimizasyon işlemini gerçekleştirmek için stokastik gradyan iniş yönteminin kullanıldığı adam algoritmasını kullanır. Kullanımı etkilidir ve çok az bellek tüketir. Kullanımda çok miktarda veri ve parametrenin mevcut olduğu durumlarda uygundur.
+  * **AdaDelta**: Adadelta optimize edicide stokastik gradyan iniş yöntemiyle uyarlanabilir bir öğrenme oranı kullanır. Adadelta iki dezavantaja karşı faydalıdır:
+     * Eğitim sırasında sürekli öğrenme hızı bozulması.
+     * Ayrıca küresel öğrenme oranı sorununu da çözer.
+
+### Kıyas
+Grafikler, yukarıda tartıştığımız farklı optimize edicilerin performansının bir karşılaştırmasını göstermektedir. RMSProp'un sinir ağlarının eğitimini daha az çağda veya yinelemede birleştirmeye yardımcı olduğunu görebiliriz, Adagrad ise yakınsama için en fazla zamanı alır. Adem durumunda, momentum nedeniyle istenen yerin ötesine nasıl geçtiği ve daha sonra doğru yakınsama noktasına geri döndüğü açıkça görülebilir.
+Mon Dec 26 2022 14:51:32 GMT+0300 (GMT+03:00)

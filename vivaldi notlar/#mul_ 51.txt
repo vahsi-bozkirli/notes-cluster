@@ -1,0 +1,95 @@
+#multinode hadoop kurulumu 
+Ubuntu 22.04 hadoop 3.3.4
+
+**NameNode için dosya ayarları**
+
+* sudo nano /etc/hosts
+```
+127.0.0.1       localhost
+127.0.1.1       multinode
+172.21.54.166   namenode-1
+172.21.54.166   namenode-1.idl
+172.21.54.48    namenode-2.idl
+172.21.54.65    datanode-1.idl
+172.21.54.75    datanode-2.idl
+172.21.54.84    datanode-3.idl
+172.21.54.88    datanode-4.idl
+172.21.54.133   datanode-5.idl
+172.21.54.139   datanode-6.idl
+
+ # The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+```
+* sudo nano .bashrc
+```
+export HADOOP_HOME=/home/idl/hadoop
+export PATH=$PATH:$HADOOP_HOME/bin
+export PATH=$PATH:$HADOOP_HOME/sbin
+export HADOOP_MAPRED_HOME=${HADOOP_HOME}
+export HADOOP_COMMON_HOME=${HADOOP_HOME}
+export HADOOP_HDFS_HOME=${HADOOP_HOME}
+export YARN_HOME=${HADOOP_HOME}
+```
+* nano hadoop/etc/hadoop/hadoop-env.sh
+```
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+```
+
+* nano hadoop/etc/hadoop/core-site.xml
+```
+<configuration>
+         <property>
+                         <name>fs.defaultFS</name>
+                         <value>hdfs://namenode-1.idl:9000<value>
+        <property>
+</configuration>
+```
+* nano hadoop/etc/hadoop/hdfs-site.xml
+```
+<configuration>
+        <property>
+                <name>dfs.replication</name>
+                <value>2</value>
+        </property>
+        <property>
+                <name>dfs.namenode-1.name.dir</name>
+                <value>file:///home/idl/hadoop/hdfs/name</value>
+        </property>
+        <property>
+                <name>dfs.secondary.http.address</name>
+                <value>namenode-2:50090</value>
+        </property>
+</configuration>
+```
+* nano hadoop/etc/hadoop/mapred-site.xml
+```
+<configuration>
+<property>
+        <name>mapreduce.jobtracker.address</name>
+        <value>namenode-1.idl:54311</value>
+    </property>
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+    </property>
+</configuration>
+```
+
+
+
+
+
+secondary namenode için namenode un etc hosts dosyasına secondary namenode için ip adresi ve kullanıcı adı yazıldı
+yine namenode dosyasının hdfs-site.xml dosyasına şu kod eklendi
+
+<property>
+    <name>dfs.secondary.http.address</name>
+    <value>master:50090</value>
+</property>
+
+masters dosyasında da secondary namenode un tanımlanmış olması gerekir 
+Tue Dec 20 2022 14:32:06 GMT+0300 (GMT+03:00)

@@ -1,0 +1,14 @@
+Eksik Veri Yönetimi
+* Complete Case Analysis(CCA)
+ * Eksik verinin kaldırılması(Listwise deletion)
+  * veri missing at random(MAR)
+
+* Arbitrary Value Imputation(Keyfi değer gösterimi)
+ * eksik verilerin "eksik veri", "tanımsız","0","99999" gibi değerlerle doldurulması
+  * veri Missing at random değildir
+
+* Frequent Category Imputation
+ * eksik verilerin mod değeri ile doldurulması 
+  * vei missing at random
+
+Thu Jan 05 2023 16:38:44 GMT+0300 (GMT+03:00)

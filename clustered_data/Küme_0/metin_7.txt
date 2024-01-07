@@ -1,0 +1,26 @@
+Aktivasyon fonksiyonları
+* Relu: 
+  * avantajı: hızlı ve doğrusal olmayan farklılaştırılabilir yapısıyla kullanışlıdır, kaybolan gradient sorunu yoktur büyük sinir ağlarının gizli katmanlarında çok kullanışlıdır
+  * dezavantaj: ReLU katmanının en büyük dezavantajı, Dying Neurons probleminden muzdarip olmasıdır. Girdiler negatif olduğunda, türevi sıfır olur, bu nedenle geri yayılma gerçekleştirilemez ve bu nöron için öğrenme gerçekleşmeyebilir ve ölür.
+foo = tf.constant([-5, -8, 0.0, 3, 9], dtype = tf.float32)
+tf.keras.activations.relu(foo).numpy()
+tf.keras.activations.relu(foo, alpha=0.7).numpy()
+tf.keras.activations.relu(foo, max_value=3).numpy()
+tf.keras.activations.relu(foo, threshold=7).numpy()
+* Sigmoid: 
+  * avantaj: Çıkışı 0 ile 1 arasında değiştiği için, ikili sınıflandırma için iyi bir seçimdir.
+  * dezavantaj: Giriş değerleri çok küçük veya çok yüksekse, sinir ağı öğrenmeyi durdurabilir, bu sorun popüler olarak yok olan gradyan problemi olarak bilinir. Bu nedenle Sigmoid etkinleştirme işlevi gizli katmanlarda kullanılmaz.
+sigmoid(x) = 1/ (1 + exp(-x))
+* Softmax: Softmax işlevi, değer aralığı (0,1) ile toplam 1'e eşit olan bir vektör olarak bir olasılık dağılımı üretir.
+  * avantaj: Softmax bir olasılık dağılımı ürettiğinden, çok sınıflı sınıflandırma için bir çıktı katmanı olarak kullanılır.
+* Tanh: 
+  * avantaj: Çıkışı -1 ila +1 arasında değiştiği için, bir nöronun çıkışının negatif olmasını istediğimizde kullanılabilir.
+  * dezavantaj: Çalışması bir sigmoid fonksiyona benzediğinden, çok düşük veya çok yüksek giriş değerleri varsa vanishing gradyanı sorunundan da muzdariptir.
+Hangi nöral ağ kullanılmalı
+
+Yok Olan Degrade probleminden muzdarip oldukları için gizli katmanlarda Sigmoid ve Tanh aktivasyon fonksiyonundan kaçınılmalıdır.
+İkili Sınıflandırma durumunda çıkış katmanında sigmoid aktivasyon fonksiyonu kullanılmalıdır
+ReLU aktivasyon fonksiyonları, Yok Olan Degrade probleminden muzdarip olmadıkları ve hesaplamalı olarak hızlı oldukları için sinir ağlarının gizli katmanları için idealdir.
+Çok katlı sınıflandırma durumunda çıktı katmanında Softmax aktivasyon fonksiyonu kullanılmalıdır.
+Wed Dec 28 2022 13:17:01 GMT+0300 (GMT+03:00)
+https://machinelearningknowledge.ai/keras-activation-layers-ultimate-guide-for-beginners/

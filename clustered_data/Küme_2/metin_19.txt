@@ -1,0 +1,8 @@
+CRISP DM vs SEMMA
+SEMMA (Sample, Explore, Modify, Model, Assess) ve CRISP-DM (Cross Industry Standard Process for Data Mining) yöntemleri, veri madenciliği sürecini kapsayan iki farklı yöntemdir. Ancak, aralarında bazı farklar bulunmaktadır:
+Aşamalar: SEMMA yöntemi beş aşamaya bölünürken, CRISP-DM yöntemi altı aşamaya bölünmektedir.
+Orijin : CRISP-DM, veri madenciliği için yaygın olarak kullanılan bir yöntemdir ve birçok sektörde uygulanmıştır. SEMMA ise SAS tarafından geliştirilmiş bir yöntemdir ve daha çok SAS ürünleriyle çalışan kişiler tarafından kullanılmaktadır.
+Öncelik : CRISP-DM yöntemi, veri madenciliği projelerinin yürütülmesi için gereken tüm aşamaları kapsar ve bu nedenle projelerin daha yüksek başarı oranlarına ulaşmasına yardımcı olur. SEMMA yöntemi ise veri madenciliği projelerinde etkili bir şekilde veri keşfi yapılmasına olanak tanır ve modelleme aşamasının daha etkili hale getirilmesine olanak tanır.
+Hangisi daha iyi? Bu, veri madenciliği projesinin amacına, kaynaklarına ve tarafların veri madenciliği bilgisine göre değişebilir. CRISP-DM yöntemi, veri madenciliği projelerinin yürütülmesi için gereken tüm aşamaları kapsadığından daha geniş bir uygulama alanına sahip olabilir. Ancak, SEMMA yöntemi veri madenciliği projelerinde etkili bir şekilde veri keşfi yapılmasına ve modelleme aşamasının daha etkili hale getirilmesine olanak tanır, bu nedenle veri madenciliği projesinin amacına ve kaynaklarına göre daha uygun olabilir.
+Son olarak, CRISP-DM yöntemi daha yaygın olarak kullanılmakta ve sektör genelinde daha çok tanınmaktadır, ancak SEMMA yöntemi daha çok SAS ürünleriyle kullanılır
+Sat Jan 14 2023 20:11:34 GMT+0300 (GMT+03:00)

@@ -1,0 +1,20 @@
+Veri ölçeklendirme
+robustscaler: verileri kantil aralığına göre ölçeklendirir,aykırı değerlerle daha iyi çalışır,
+medyan değeri sonra kullanılmak üzere elenir
+birçok yapay öğrenme modeli için ortak gereksinimdir
+X-Q1(X) / Q3(X)-Q1(X)
+
+MinMaxScaling: veriyi 0 ve 1 aralığında ölçeklendirir, aykırı değerlerin fazla olduğu veri setlerinde iyi çalışamayabilir
+X-Xmin / Xmax-Xmin
+
+MaxAbsScaler: her özelliğin maksimum mutlak değeri 1 olacak şekilde veriler ölçeklenir
+X / max(abs(X))
+
+Standardizasyon: ortalama değerin 0, standart sapmanın ise 1 değerini aldığı dağılımın normale yaklaştığı metottur
+(X - u) / s
+
+PowerTransFormer: varyansı stabilize etmek ve çarpıklığı en aza indirmek için en uygun ölçeklendirme faktörünü bulur
+
+
+
+Sat Sep 02 2023 18:56:58 GMT+0300 (GMT+03:00)

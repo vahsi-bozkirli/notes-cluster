@@ -1,0 +1,11 @@
+Hinge Loss (ya da "maximum-margin" loss) fonksiyonu, Destek Vektör Makinesi (SVM) için kullanılan en yaygın optimizasyon fonksiyonudur. Bu fonksiyon, verilen eğitim verilerini en iyi şekilde sınırlandıran bir hiperdüzlemi bulmak için kullanılır.
+
+Hinge Loss fonksiyonu, SVM'nin parametrelerini şöyle etkiler:
+
+C parametresi: Bu parametre, hiperdüzlemin ne kadar sıkı bir sınırlandırma yapması gerektiğini belirler. Eğer C değeri büyükse, hiperdüzlem daha sıkı bir sınırlandırma yapar ve daha az hata oranına sahip olur, ancak daha yüksek bir overfitting riski vardır.
+
+Kernel parametresi: Bu parametre, verilen eğitim verileri için nasıl bir hiperdüzlem bulunması gerektiğini belirler. Örneğin, lineer kernel verilen eğitim verileri için lineer bir hiperdüzlem bulurken, RBF kernel verilen eğitim verileri için daha kompleks bir hiperdüzlem bulabilir.
+
+Regularization parametresi: Bu parametre, hiperdüzlemde yer alan hata oranının ne kadar kabul edilebilir olduğunu belirler.
+Fri Jan 20 2023 07:11:10 GMT+0300 (GMT+03:00)
+https://chat.openai.com/chat

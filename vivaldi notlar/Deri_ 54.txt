@@ -1,0 +1,20 @@
+Derin öğrenme ile ilgili kavramlar:
+**batch_size**: modelin verinin bir kısmını eğitmesi ve ağırlıkları güncellemesi için belirtilen miktardır, belirtilen bu miktar kadar veri alınır model öğrenir ağırlıkları günceller ve ikinci bir döngüye girer
+**epoch**: modelin veri setinin tamamını gördüğünde bitirdiği döngü sayısı
+**iterasyon**: modele veri setini her gönderdiğimizde bir iterasyonu tamamlarız **batch_size . iterasyon sayısı = epoch**
+**epoch vs iterasyon**: epoch tüm veri setinin tamamını gördüğünde bitirdiği sayı iken iterasyon verinin bir kısmını bitirdiğinde gördüğü sayıdır
+**steps vs epoch**: bir training steps bir degrade güncellemesidir. Bir epoch toplu iş boyutunda birçok veri işlenir
+* Örnek olarak, 2.000 görüntünüz varsa ve 10 batch kullanıyorsanız, bir batch 2.000 görüntü / (10 resim / adım) = 200 steps den oluşur.
+
+Internal Covariate Shift 
+eğitim sırasında her katman hatasını düzeltmeye çalışır
+ancak katmanlar ayrı ayrı hareket eder örneğin 2.katmanın çıktısı ile 3.katman beslenir bir katmandaki parametre değişikliği sonraki katmanlarda da değişime yol açar giriş katmanlarındaki bu kaymalar sebebiyle hesaplamalar için zaman artar, bu kaymaları azaltmak için BatchNormalization kullanılır
+
+normalde Normalizasyon tüm girdilerin dağılımının ortalamasını 0, standart sapmasını 1 olacak şekilde ayarlanmasıdır
+ancak bu normalizasyon işlemi sadece giriş katmana yapılır diğer katmanların normalize edilmesi işini BatchNormalization sağlar
+
+BatchNormalization önceki katmanların sonraki katmanların öncekilerini bekletmesini engeller böylece tüm katmanlar eşgüdümlü bir şekilde öğrenir
+
+BatchNormalization kullanmadan yüksek learning rate kullanırsak gradyanların yok olması problemiyle karşılaşırız(gradient vanishing) ancak batch Normalization ile bir katmandaki değişiklik sonraki katmana yayılmadığı için daha yüksek learning rate ler kullanabiliriz
+ayrıca BN ağın daha kararlı ve düzenli hale gelmesini sağlar
+Sat Dec 24 2022 14:29:25 GMT+0300 (GMT+03:00)

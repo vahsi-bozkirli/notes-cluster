@@ -1,0 +1,25 @@
+Veri aşırı örnekleme
+imblearn.over_sampling
+SMOTE: yapay azınlık aşırı örnekleyici  
+SAMPLING_STRATEGY: Float olduğunda, yeniden örneklemeden sonra azınlık sınıfındaki örnek sayısının çoğunluk sınıfındaki örnek sayısına göre istenen oranına karşılık gelir.
+NOT: float yalnızca ikili sınıflandırma için kullanılabilir. Çok sınıflı sınıflandırma için bir hata oluştu.
+str olduğunda, yeniden örnekleme tarafından hedeflenen sınıfı belirtin. Farklı sınıflardaki örnek sayıları eşitlenecektir.
+'minority': resample only the minority class;
+'not minority': resample all classes but the minority class;
+'not majority': resample all classes but the majority class;
+'all': resample all classes;
+'auto': equivalent to 'not majority'.
+Dict olduğunda, anahtarlar hedeflenen sınıflara karşılık gelir. Değerler, hedeflenen her sınıf için istenen örnek sayısına karşılık gelir.
+RANDOM_STATE: int olursa verilen değer kadar karıştırılır böylece her çalıştırdığımızda sabit ve karışmış veri elde ederiz
+K_NEIGHBORS: 
+int ise, yapay örnekleri oluşturmak için kullanılacak en yakın komşu sayısı,
+KneighborMixin de kalıtılan bir estimatör(tahminci) ise k_neighborsu bulacaktır
+n_jobs: int değer alır
+varsayılan 1 dir -1 olursa tüm çekirdekler kullanılır
+SMOTENC
+SMOTEN
+BorderLineSMOTE
+SVMSMOTE
+ADASYN
+KMeansSMOTE
+Sat Sep 02 2023 18:56:58 GMT+0300 (GMT+03:00)

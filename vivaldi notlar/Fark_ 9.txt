@@ -1,0 +1,15 @@
+Farklı alanlardan Yapay Zeka örnekleri
+Code - OpenAI Codex
+Sound effects - AudioGen (by Meta)
+Voice acting - Uberduck, RAD-TTS
+Music - AIVA 
+
+Textures - Stable Diffusion, DALL-E 2 (Maybe midjourney?)
+User interface elements - Midjourney, Stable Diffusion, DALL-E 2
+3D models - GET3D
+2D graphics - Midjourney, Stable Diffusion, DALL-E 2
+
+Animations - ASE, AI4Animation 
+Scripts for characters and dialogue - GPT-3
+Level designs - (Maybe Midjourney, Stable Diffusion, DALL-E 2?)
+Sat Dec 10 2022 16:18:50 GMT+0300 (GMT+03:00)
